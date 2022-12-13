@@ -1,4 +1,36 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+
+    .HM-logga{
+        height: 100px;
+        width: 165px;
+    }
+
+
+    .link-left-header li{
+        
+        list-style: none;  
+      }
+    .link-left-header{
+      display: flex;
+      flex-direction: row;
+
+      .nav-link{
+        margin-right: 40px;
+      }
+      
+    }
+
+   
+
+
 .bi {
    color: black;
 }
@@ -6,3 +38,8 @@
     .bi:hover{
         color: red;
     }
+
+    .nav-list li {
+        list-style: none;
+    }
+}

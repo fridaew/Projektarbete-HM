@@ -1,7 +1,32 @@
-.bi {
-  color: black;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.bi:hover {
+.top-header {
+  display: flex;
+  justify-content: space-between;
+}
+.top-header .HM-logga {
+  height: 100px;
+  width: 165px;
+}
+.top-header .link-left-header li {
+  list-style: none;
+}
+.top-header .link-left-header {
+  display: flex;
+  flex-direction: row;
+}
+.top-header .link-left-header .nav-link {
+  margin-right: 40px;
+}
+.top-header .bi {
+  color: black;
+}
+.top-header .bi:hover {
   color: red;
+}
+.top-header .nav-list li {
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
