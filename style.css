@@ -44,17 +44,17 @@
   background-color: white;
 }
 .top-header .header-button-icons a {
-  color: black;
+  color: #222222;
   text-decoration: none;
 }
 .top-header .header-button-icons a:hover {
   text-decoration: underline;
 }
 .top-header .bi {
-  color: black;
+  color: #222222;
 }
 .top-header .bi:hover {
-  color: red;
+  color: #E50010;
 }
 .top-header .nav-list li {
   list-style: none;
@@ -110,10 +110,10 @@
 }
 .nav-header .nav-list a {
   text-decoration: none;
-  color: black;
+  color: #222222;
 }
 .nav-header .nav-list a:hover {
-  color: black;
+  color: #222222;
   text-decoration: underline;
 }
 .nav-header .nav-list .search-form {
