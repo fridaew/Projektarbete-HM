@@ -60,40 +60,73 @@
   list-style: none;
 }
 
-.nav-list li {
+.nav-header {
+  position: relative;
+}
+.nav-header .mega-box {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  left: 0;
+  visibility: hidden;
+  font-size: 15px;
+}
+.nav-header .mega-box .content {
+  display: flex;
+  padding: 25px 20px;
+  justify-content: center;
+}
+.nav-header .content .row {
+  width: calc(20% - 30px);
+  line-height: 50px;
+  margin-left: 10px;
+}
+.nav-header .content .row p {
+  font-size: 17px;
+  background-color: pink;
+}
+.nav-header .row p .mega-links li a {
+  padding: 0 20px;
+  display: block;
+}
+.nav-header .nav-list li:hover .mega-box {
+  top: 25px;
+  opacity: 1;
+  visibility: visible;
+}
+.nav-header .nav-list li {
   list-style: none;
 }
-
-.nav-list {
+.nav-header .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 20px;
   font-size: 1.1rem;
 }
-.nav-list .nav-item {
+.nav-header .nav-list .nav-item {
   margin-left: 30px;
 }
-.nav-list a {
+.nav-header .nav-list a {
   text-decoration: none;
   color: black;
 }
-.nav-list a:hover {
+.nav-header .nav-list a:hover {
   color: black;
   text-decoration: underline;
 }
-.nav-list .search-form {
+.nav-header .nav-list .search-form {
   margin-left: 25px;
 }
-.nav-list .search-form .sökfält {
+.nav-header .nav-list .search-form .sökfält {
   border: none;
   text-decoration: underline;
 }
-.nav-list .search-form .sökfält:hover fieldset {
+.nav-header .nav-list .search-form .sökfält:hover fieldset {
   border: none;
 }
-.nav-list .search-form input:focus, .nav-list .search-form input:hover,
-.nav-list .search-form select:focus, .nav-list .search-form select:hover {
+.nav-header .nav-list .search-form input:focus, .nav-header .nav-list .search-form input:hover,
+.nav-header .nav-list .search-form select:focus, .nav-header .nav-list .search-form select:hover {
   outline: none;
   border: none;
 }/*# sourceMappingURL=style.css.map */
