@@ -54,7 +54,7 @@
   color: #222222;
 }
 .top-header .bi:hover {
-  color: #E50010;
+  color: red;
 }
 .top-header .nav-list li {
   list-style: none;
