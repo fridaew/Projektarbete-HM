@@ -2,11 +2,13 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Didact Gothic", sans-serif;
 }
 
 .top-header {
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
 }
 .top-header .HM-logga {
   height: 100px;
@@ -21,7 +23,7 @@
   margin-top: 30px;
 }
 .top-header .link-left-header .nav-link {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 .top-header .link-left-header a {
   color: black;
@@ -66,6 +68,7 @@
   flex-direction: row;
   justify-content: center;
   margin-top: 20px;
+  font-size: 1.1rem;
 }
 .nav-list .nav-item {
   margin-left: 30px;
@@ -79,7 +82,7 @@
   text-decoration: underline;
 }
 .nav-list .search-form {
-  margin-left: 30px;
+  margin-left: 25px;
 }
 .nav-list .search-form .sökfält {
   border: none;
