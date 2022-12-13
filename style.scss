@@ -1,0 +1,60 @@
+.footer {
+    background-color: #e4e4e4;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    .footer-innehåll {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 70px;
+        
+    }
+
+    .innehållFooter {
+     display: flex;
+     flex-direction: column;
+     text-decoration: none;
+     color: black;
+    }
+
+    .footer-a {
+        color: black;
+        text-decoration: none;
+        padding: 5px;
+        font-size: 11px;
+    }
+    .footer-h2{
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .footerText {
+      font-size: 11px;
+      text-align: center;
+    }
+    
+    .footer-ikoner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin-top: 50px;
+        justify-content: space-around;
+        padding-left: 450px;
+        padding-right: 450px;
+    }
+    
+
+    .footerLogo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        font-size: 13px;
+    }
+}
