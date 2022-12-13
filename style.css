@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +18,7 @@
 .top-header .link-left-header {
   display: flex;
   flex-direction: row;
+  margin-top: 30px;
 }
 .top-header .link-left-header .nav-link {
   margin-right: 40px;
@@ -31,6 +33,7 @@
   margin-right: 40px;
   display: inline-block;
   position: relative;
+  margin-top: 30px;
 }
 .top-header .header-button-icons button {
   margin-left: 10px;
@@ -52,4 +55,41 @@
 }
 .top-header .nav-list li {
   list-style: none;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.nav-list .nav-item {
+  margin-left: 30px;
+}
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+.nav-list a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.nav-list .search-form {
+  margin-left: 30px;
+}
+.nav-list .search-form .sökfält {
+  border: none;
+  text-decoration: underline;
+}
+.nav-list .search-form .sökfält:hover fieldset {
+  border: none;
+}
+.nav-list .search-form input:focus, .nav-list .search-form input:hover,
+.nav-list .search-form select:focus, .nav-list .search-form select:hover {
+  outline: none;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
