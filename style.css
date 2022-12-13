@@ -13,6 +13,7 @@
 .top-header .HM-logga {
   height: 100px;
   width: 165px;
+  margin-top: 10px;
 }
 .top-header .link-left-header li {
   list-style: none;
@@ -20,7 +21,7 @@
 .top-header .link-left-header {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 .top-header .link-left-header .nav-link {
   margin-right: 20px;
@@ -35,7 +36,7 @@
   margin-right: 40px;
   display: inline-block;
   position: relative;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .top-header .header-button-icons button {
   margin-left: 10px;
