@@ -21,6 +21,17 @@
 .top-header .link-left-header .nav-link {
   margin-right: 40px;
 }
+.top-header .header-button-icons {
+  margin-right: 40px;
+}
+.top-header .header-button-icons button {
+  margin-left: 10px;
+  border: none;
+  background-color: white;
+}
+.top-header .header-button-icons a {
+  color: black;
+}
 .top-header .bi {
   color: black;
 }
