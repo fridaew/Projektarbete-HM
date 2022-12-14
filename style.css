@@ -227,4 +227,65 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   margin: 0;
   padding: 0;
   font-family: "Didact Gothic", sans-serif;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+}
+.main .bild1 {
+  width: 960px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0 auto 0 auto;
+}
+.main .banner {
+  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 960px;
+  height: 143px;
+  background-color: #F1EBDF;
+  padding-bottom: 50px;
+  margin: 0 auto 50px auto;
+}
+.main .banner h3 {
+  color: #E50010;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding: 22px 60px 0px;
+}
+.main .banner p {
+  color: #222222;
+  font-size: 11px;
+  text-align: center;
+}
+.main .banner .b-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 45px;
+}
+.main .banner .b-banner .links {
+  display: block;
+  border: 1px solid #222222;
+  margin: 0px 6px 0px 6px;
+}
+.main .banner .b-banner .b-link {
+  display: flex;
+  color: #222222;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.main .banner .b-banner a:link {
+  text-decoration: none;
+}
+.main .banner .b-banner a:visited {
+  text-decoration: none;
+}
+.main .banner .b-banner a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
