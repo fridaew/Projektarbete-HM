@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Didact Gothic', sans-serif;
+    background-color: #faf9f8;
    
 }
 
@@ -10,6 +11,112 @@
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+
+    .drop-menu li {
+        list-style: none;
+        text-align: left;
+    }
+
+    .link-left-header li:hover .drop-menu{
+        top:65px;
+        opacity:1;
+        visibility: visible;
+     }
+
+
+
+
+    .link-left-header .drop-menu li a:hover{
+        background-color:beige;
+        width: 100%;
+        
+    }
+
+    .link-left-header .drop-menu li a{
+        background-color: white;
+    }
+
+
+
+    .drop-menu li a{
+        width: 100%;
+        display: block;
+        
+    }
+
+    .link-left-header .drop-menu{
+        background-color: white;
+        width: 150px;
+        line-height: 30px;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        
+        
+        a{
+            text-decoration: none;
+            color:black
+        }
+    }
+
+    // test dropdown -------
+
+    // .mega-box{
+    //     position: absolute;
+    //     top:30px;
+    //     width: 25%;
+    //     left: 0;
+    //     background-color: antiquewhite;
+    //     padding: 0;
+    //     // visibility: hidden;
+    //     // font-size: 15px;
+    //     // background-color: pink;
+        
+    
+    // }
+    
+    // .mega-box .content {
+    //    display: flex;
+    //    padding:5px 5px;
+    //    justify-content: center;
+       
+       
+    // }
+    
+    // .content .row {
+    //     width: calc(10% - 10px);
+    //     line-height: 30px;
+    //     // margin-left:10px;
+    //     margin-top: 0;
+    // }
+    
+    // .content .row span{
+    // font-size: 17px;
+    // }
+    
+    
+    
+    
+    
+    // .row span .mega-links li a { 
+    // padding: 0 20px; 
+    // display: block; 
+    
+    
+    // } 
+    
+    
+    
+    // .nav-list li:hover .mega-box{ 
+    //  top:25px; 
+    //  opacity: 1; 
+    //  visibility: visible; 
+    //  transition: all 0.3 ease;
+    
+     
+    //  }
+
+    //  ----test dropdown
     
     
 
@@ -27,7 +134,7 @@
     .link-left-header{
       display: flex;
       flex-direction: row;
-       margin-top: 35px;
+      margin-top: 35px;
 
       .nav-link{
         margin-right: 20px;
@@ -88,6 +195,7 @@
 
 .nav-header{
     position: relative;
+    
 
 .mega-box{
     position: absolute;
@@ -96,7 +204,7 @@
     left: 0;
     visibility: hidden;
     font-size: 15px;
-    background-color: white;
+    background-color: pink;
     
 
 }
@@ -106,25 +214,29 @@
    padding:25px 20px;
    justify-content: center;
    
+   
 }
 
 .content .row {
-     width: calc(20% - 10px);
-    line-height: 50px;
+    width: calc(20% - 10px);
+    line-height: 40px;
     margin-left:10px;
+    margin-top: 0;
 }
 
-.content .row p{
+.content .row span{
 font-size: 17px;
-
-
 }
 
 
 
-.row p .mega-links li a { 
+
+
+.row span .mega-links li a { 
 padding: 0 20px; 
 display: block; 
+
+
 } 
 
 
@@ -134,6 +246,7 @@ display: block;
  opacity: 1; 
  visibility: visible; 
  transition: all 0.3 ease;
+
  
  } 
 

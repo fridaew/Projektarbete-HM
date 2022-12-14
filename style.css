@@ -3,12 +3,45 @@
   margin: 0;
   padding: 0;
   font-family: "Didact Gothic", sans-serif;
+  background-color: #faf9f8;
 }
 
 .top-header {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
+}
+.top-header .drop-menu li {
+  list-style: none;
+  text-align: left;
+}
+.top-header .link-left-header li:hover .drop-menu {
+  top: 65px;
+  opacity: 1;
+  visibility: visible;
+}
+.top-header .link-left-header .drop-menu li a:hover {
+  background-color: beige;
+  width: 100%;
+}
+.top-header .link-left-header .drop-menu li a {
+  background-color: white;
+}
+.top-header .drop-menu li a {
+  width: 100%;
+  display: block;
+}
+.top-header .link-left-header .drop-menu {
+  background-color: white;
+  width: 150px;
+  line-height: 30px;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.top-header .link-left-header .drop-menu a {
+  text-decoration: none;
+  color: black;
 }
 .top-header .HM-logga {
   height: 100px;
@@ -70,7 +103,7 @@
   left: 0;
   visibility: hidden;
   font-size: 15px;
-  background-color: white;
+  background-color: pink;
 }
 .nav-header .mega-box .content {
   display: flex;
@@ -79,13 +112,14 @@
 }
 .nav-header .content .row {
   width: calc(20% - 10px);
-  line-height: 50px;
+  line-height: 40px;
   margin-left: 10px;
+  margin-top: 0;
 }
-.nav-header .content .row p {
+.nav-header .content .row span {
   font-size: 17px;
 }
-.nav-header .row p .mega-links li a {
+.nav-header .row span .mega-links li a {
   padding: 0 20px;
   display: block;
 }
