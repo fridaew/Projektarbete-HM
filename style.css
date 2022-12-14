@@ -83,7 +83,7 @@ header .top-header .header-button-icons a:hover {
 header .top-header .bi {
   color: #222222;
 }
-header .top-header .bi:hover {
+header .top-header .bi-three-dots:hover {
   color: red;
 }
 header .top-header .nav-list li {
