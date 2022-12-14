@@ -164,12 +164,6 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   border: none;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Didact Gothic", sans-serif;
-}
-
 .footer {
   background-color: #e4e4e4;
   font-family: "Sans Regular", "Sans Semi Bold", "Sans Bold";
@@ -227,4 +221,10 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   align-items: center;
   padding-bottom: 30px;
   font-size: 13px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Didact Gothic", sans-serif;
 }/*# sourceMappingURL=style.css.map */
