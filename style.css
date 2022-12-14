@@ -134,9 +134,10 @@
 
 .footer {
   background-color: #e4e4e4;
-  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Sans Regular", "Sans Semi Bold", "Sans Bold";
   width: 100%;
   bottom: 0;
+  color: #222222;
 }
 .footer .footer-innehåll {
   display: flex;
@@ -148,13 +149,16 @@
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  color: black;
+  color: #222222;
 }
 .footer .footer-a {
   color: black;
   text-decoration: none;
   padding: 5px;
   font-size: 11px;
+}
+.footer .footer-a:hover {
+  text-decoration: underline;
 }
 .footer .footer-h2 {
   font-size: 11px;
@@ -175,6 +179,9 @@
   padding-left: 450px;
   padding-right: 450px;
 }
+.footer .ikon-a {
+  color: #222222;
+}
 .footer .footerLogo {
   display: flex;
   flex-direction: column;
@@ -182,4 +189,7 @@
   align-items: center;
   padding-bottom: 30px;
   font-size: 13px;
+}
+.footer .footer-span {
+  padding-bottom: 1px;
 }/*# sourceMappingURL=style.css.map */
