@@ -16,7 +16,7 @@
   text-align: left;
 }
 .top-header .link-left-header li:hover .drop-menu {
-  top: 65px;
+  top: 60px;
   opacity: 1;
   visibility: visible;
 }
@@ -44,8 +44,8 @@
   color: black;
 }
 .top-header .HM-logga {
-  height: 100px;
-  width: 165px;
+  height: 80px;
+  width: 90px;
   margin-top: 10px;
 }
 .top-header .link-left-header li {
@@ -74,7 +74,6 @@
 .top-header .header-button-icons button {
   margin-left: 10px;
   border: none;
-  background-color: white;
 }
 .top-header .header-button-icons a {
   color: #222222;

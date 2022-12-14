@@ -18,18 +18,14 @@
     }
 
     .link-left-header li:hover .drop-menu{
-        top:65px;
+        top:60px;
         opacity:1;
         visibility: visible;
      }
 
-
-
-
     .link-left-header .drop-menu li a:hover{
         background-color:beige;
         width: 100%;
-        
     }
 
     .link-left-header .drop-menu li a{
@@ -59,70 +55,12 @@
         }
     }
 
-    // test dropdown -------
-
-    // .mega-box{
-    //     position: absolute;
-    //     top:30px;
-    //     width: 25%;
-    //     left: 0;
-    //     background-color: antiquewhite;
-    //     padding: 0;
-    //     // visibility: hidden;
-    //     // font-size: 15px;
-    //     // background-color: pink;
-        
-    
-    // }
-    
-    // .mega-box .content {
-    //    display: flex;
-    //    padding:5px 5px;
-    //    justify-content: center;
-       
-       
-    // }
-    
-    // .content .row {
-    //     width: calc(10% - 10px);
-    //     line-height: 30px;
-    //     // margin-left:10px;
-    //     margin-top: 0;
-    // }
-    
-    // .content .row span{
-    // font-size: 17px;
-    // }
-    
-    
-    
-    
-    
-    // .row span .mega-links li a { 
-    // padding: 0 20px; 
-    // display: block; 
-    
-    
-    // } 
-    
-    
-    
-    // .nav-list li:hover .mega-box{ 
-    //  top:25px; 
-    //  opacity: 1; 
-    //  visibility: visible; 
-    //  transition: all 0.3 ease;
-    
-     
-    //  }
-
-    //  ----test dropdown
     
     
 
     .HM-logga{
-        height: 100px;
-        width: 165px;
+        height: 80px;
+        width: 90px;
         margin-top: 10px;
     }
 
@@ -161,7 +99,7 @@
        button {
         margin-left: 10px;
         border:none;
-        background-color: white;
+        
         
        }
 
