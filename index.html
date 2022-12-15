@@ -58,6 +58,11 @@
 
     <!-- CSS styling slides -->
     <style type ="text/css">
+
+        .wrapper-slide{
+            display: flex;
+            flex-direction: column;
+        }
     .parent{
         display: flex;
         justify-content: center;
@@ -81,6 +86,11 @@
            position: relative;
            right: 25px;
 
+        }
+
+        .rubrik-småbilder{
+            margin-left: 150px;
+            font-size: 20px;
         }
 
         a{
@@ -658,8 +668,9 @@
     </section>
 
 <!-- Slide-runda bilder -->
-
-
+<h2 class="rubrik-småbilder">Populära kategorier</h2>
+<br>
+<div class="wrapper-slide">
 <div class="parent">
 
     <div id="leftarrow" onclick="moveLeft()">
@@ -733,6 +744,86 @@
           </svg></button>
     </div>
    
+</div>
+
+<h2 class="rubrik-småbilder">Shoppa efter varumärke</h2>
+
+
+<div class="parent">
+
+    <div id="leftarrow" onclick="moveLeft()">
+        <button class="arrow-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg></button>
+    </div>
+
+    <div class="child" id="c9">
+        <a href="#">
+        <img src="Bilder HM/Småbilder/Kvadrat1 Dam.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Koftor & Tröjor</p>
+       </a>
+    </div>
+    <div class="child" id="c10">
+        <a href="#">
+        <img src="Bilder HM/Småbilder/Kvadrat2 Beauty.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Kläder</p>
+        
+    </a>
+    </div>
+    <div class="child" id="c11">
+        <a href="#">
+        <img src="/Bilder HM/Småbilder/Kvadrat3 Herr.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Byxor</p>
+        </a>
+    </div>
+    <div class="child" id="c12">
+        <a href="#">
+        <img src="/Bilder HM/Småbilder/Kvadrat4 HM Home.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Toppar</p>
+        </a>
+    </div>
+    <div class="child" id="c13">
+        <a href="#">
+        <img src="/Bilder HM/Småbilder/Kvadrat5 Dam.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Klänningar</p>
+        </a>
+    </div>
+    <div class="child" id="c14">
+        <a href="#">
+        <img src="Bilder HM/Småbilder/Kvadrat6 Beauty.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Nyheter</p>
+        </a>
+    </div>
+    <div class="child" id="c15">
+        <a href="#">
+        <img src="/Bilder HM/Småbilder/Kvadrat7 Herr.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Skjortor & Blusar</p>
+        </a>
+
+    </div>
+    <div class="child" id="c16">
+        <a href="#"></a>
+        <img src="/Bilder HM/Småbilder/Kvadrat8 HM Home.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Vardagsrum</p>
+        </a>
+    </div>
+
+    <div id="rightarrow" onclick="moveRight()">
+        <button class="arrow-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg></button>
+    </div>
+   
+</div>
+
 </div>
 
 <!-- slide-runda bilder slut -->
@@ -845,11 +936,8 @@
     </footer>
 
         <!--Footer slut-->
-<<<<<<< HEAD
 
-<!-- <script src="script.js"></script> -->
 
-=======
->>>>>>> 40d30e4b851751ff19b4b916dfdc054f1c77b966
+
 </body>
 </html>
