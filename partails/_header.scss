@@ -12,7 +12,14 @@ header {
 
     .drop-menu li {
         list-style: none;
-        text-align: left;
+        text-align: center;
+    }
+
+    .link-left-header ul {
+        
+      margin:0;
+      padding: 0;
+        
     }
 
     .link-left-header li:hover .drop-menu{
@@ -22,7 +29,7 @@ header {
      }
 
     .link-left-header .drop-menu li a:hover{
-        background-color:beige;
+        background-color: #f4eddd;
         width: 100%;
         height: 100%;
     }
@@ -41,7 +48,7 @@ header {
     }
 
     .link-left-header .drop-menu{
-        background-color: white;
+        // background-color: white;
         width: 150px;
         line-height: 30px;
         position: absolute;
@@ -102,6 +109,8 @@ header {
         background-color: #FAF9F8;
       }
 
+    
+
      a{
         color: #222222;
         text-decoration: none;
@@ -110,6 +119,14 @@ header {
        a:hover{
         text-decoration: underline;
        }
+
+       //test icons 
+
+
+      
+
+
+
  }
 
    
@@ -129,6 +146,17 @@ header {
 }
 
 //----------------SLUT-TOP-HEADER--------------------
+
+
+// teste bilder
+
+
+  
+
+
+
+// test sluuut
+
 
 //--------------NAV-HEADER--------------------
 
