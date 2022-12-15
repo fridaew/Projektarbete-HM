@@ -235,6 +235,11 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 .main {
   margin: 0;
   padding: 0;
+  background-color: #faf9f8;
+}
+.main p {
+  text-align: center;
+  font-size: 13px;
 }
 .main .bild1 {
   width: 960px;
