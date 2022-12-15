@@ -233,37 +233,6 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   border: none;
 }
 
-.magazine {
-  background-color: #F4EDDD;
-}
-.magazine .magazine-bilder {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 40px 100px 80px 100px;
-}
-
-.magazine-text {
-  text-align: center;
-  padding-top: 60px;
-}
-.magazine-text .magazine-h2 {
-  font-weight: bold;
-  font-size: 42px;
-}
-.magazine-text .magazine-h3 {
-  font-size: 11px;
-  font-weight: bold;
-}
-.magazine-text .magazine-a {
-  color: #222222;
-  font-weight: bold;
-}
-.magazine-text .magazine-a:hover {
-  color: rgb(125, 120, 120);
-  opacity: 0.8;
-}
-
 .main {
   background-color: #FAF9F8;
   margin: 0;
@@ -380,6 +349,10 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   margin-right: 10px;
   display: none;
 }
+.main .parent .child .runda {
+  color: #222222;
+  text-decoration: none;
+}
 .main .parent .child .rund-bild-text-b {
   color: #707070;
   font-size: 13px;
@@ -389,17 +362,6 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 .main .parent .child .rund-bild-text-b p {
   font-size: 13px;
   text-align: center;
-}
-.main .parent .child .rund-bild-text-b a:link {
-  text-decoration: none;
-}
-.main .parent .child .rund-bild-text-b a:visited {
-  text-decoration: none;
-  color: #222222;
-}
-.main .parent .child .rund-bild-text-b a:hover {
-  text-decoration: none;
-  color: #222222;
 }
 .main .parent #leftarrow, .main .parent #rightarrow {
   margin-left: 12px;
@@ -412,4 +374,35 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 .main .parent .arrow-button {
   border: none;
   background-color: #FAF9F8;
+}
+
+.magazine {
+  background-color: #F4EDDD;
+}
+.magazine .magazine-bilder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 100px 80px 100px;
+}
+
+.magazine-text {
+  text-align: center;
+  padding-top: 60px;
+}
+.magazine-text .magazine-h2 {
+  font-weight: bold;
+  font-size: 42px;
+}
+.magazine-text .magazine-h3 {
+  font-size: 11px;
+  font-weight: bold;
+}
+.magazine-text .magazine-a {
+  color: #222222;
+  font-weight: bold;
+}
+.magazine-text .magazine-a:hover {
+  color: rgb(125, 120, 120);
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */

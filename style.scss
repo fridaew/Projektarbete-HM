@@ -9,40 +9,6 @@
     
 }
 
-.magazine{
-    background-color: #F4EDDD;
-
-    .magazine-bilder{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 40px 100px 80px 100px;
-    }
- 
-}
-.magazine-text{
-
-    text-align: center;
-    padding-top: 60px;
-    .magazine-h2{
-        font-weight: bold;
-        font-size: 42px;
-    }
-    .magazine-h3{
-        font-size: 11px;
-        font-weight: bold;
-    }
-    .magazine-a{
-        color: #222222;
-        font-weight: bold;
-    }
-    .magazine-a:hover{
-        color: rgb(125, 120, 120);
-        opacity: 0.8;
-    }
-
-}
-
 
 .main {
     background-color: #FAF9F8;
@@ -158,6 +124,7 @@
                 }
             }
         }
+
     // runda slide
     .parent {
         display: flex;
@@ -171,13 +138,18 @@
         margin: 0 auto 0 auto;
         position: relative;
         flex-direction: row;
-        
-            
+           
         .child{
             width: 20%;
             margin-left: 10px;
             margin-right: 10px;
             display: none;
+
+            .runda {
+
+                color: #222222;
+                text-decoration: none;
+            }
         
             .rund-bild-text-b {
                 color: #707070;
@@ -187,19 +159,9 @@
                 
                 p {
                     font-size: 13px;
-                    text-align: center;
+                    text-align: center;                   
                 }
-                    a:link { 
-                        text-decoration: none;
-                    }
-                    a:visited { 
-                        text-decoration: none; 
-                        color: #222222;
-                    }
-                    a:hover { 
-                        text-decoration: none; 
-                        color: #222222;          
-                    } 
+                    
             }
         }
          
@@ -218,4 +180,37 @@
             background-color: #FAF9F8;
         }        
     }
+}
+.magazine{
+    background-color: #F4EDDD;
+
+    .magazine-bilder{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px 100px 80px 100px;
+    }
+ 
+}
+.magazine-text{
+
+    text-align: center;
+    padding-top: 60px;
+    .magazine-h2{
+        font-weight: bold;
+        font-size: 42px;
+    }
+    .magazine-h3{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .magazine-a{
+        color: #222222;
+        font-weight: bold;
+    }
+    .magazine-a:hover{
+        color: rgb(125, 120, 120);
+        opacity: 0.8;
+    }
+
 }
