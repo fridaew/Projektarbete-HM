@@ -15,115 +15,112 @@
     margin: 0;
     padding: 0; 
     
-
     p {
         text-align: center;
         font-size: 13px;
     }
         // stora 3 bilderna
-        .bild1, .bild2, .bild3 {
-            width: 960px;
-            padding-top: 24px;
-            padding-bottom: 24px;
-            margin: 0 auto 0 auto;
-            position: relative;
+    .bild1, .bild2, .bild3 {
+        width: 960px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin: 0 auto 0 auto;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;                    
+
+        .buy1 {
+            position: absolute;
+            display: flex;
+            // z-index: 2;
+            top: 615px;
+            background-color: transparent;
+            border: none;
+            font-size: 13px;
+            font-weight: bold;
+               
+        }
+        .buy2, .buy3 {
+            position: absolute;
+            display: flex;
+            // z-index: 2;
+            top: 585px;
+            background-color: transparent;
+            border: none;
+            font-size: 13px;
+            font-weight: bold;
+        }
+            
+        a:link { 
+            text-decoration: none;
+        }
+        a:visited { 
+            text-decoration: none; 
+            color: #222222;
+        }
+        a:hover { 
+            text-decoration: none; 
+            background-color: rgb(237, 237, 237);
+        }
+    }
+     // gula bannern
+    .banner {
+        width: 960px;
+        height: 143px;
+        background-color: #F1EBDF;
+        padding-bottom: 50px;
+        margin: 0 auto 50px auto;
+
+        h3 {
+            color: #E50010;
+             font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            padding: 22px 60px 0px;
+        }
+
+        p {
+            color: #222222;
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .b-banner {
             display: flex;
             flex-direction: row;
             justify-content: center;
-                    
-
-            .buy1 {
-                position: absolute;
-                display: flex;
-                // z-index: 2;
-                top: 615px;
-                background-color: transparent;
-                border: none;
-                font-size: 13px;
-                font-weight: bold;
+            margin-right: 45px;    
                
+            .links {
+                display: block;
+                border: 1px solid #222222;
+                 margin: 0px 6px 0px 6px;
+                    
             }
-            .buy2, .buy3 {
-                position: absolute;
+
+            .b-link {
                 display: flex;
-                // z-index: 2;
-                top: 585px;
-                background-color: transparent;
-                border: none;
+                color: #222222;
                 font-size: 13px;
                 font-weight: bold;
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-top: 2px;
+                padding-bottom: 2px;
             }
+
             a:link { 
                 text-decoration: none;
             }
             a:visited { 
                 text-decoration: none; 
-                color: #222222;
             }
             a:hover { 
-                text-decoration: none; 
-                background-color: rgb(237, 237, 237);
-               
+                text-decoration: underline; 
             }
         }
-        // gula bannern
-        .banner {
-            width: 960px;
-            height: 143px;
-            background-color: #F1EBDF;
-            padding-bottom: 50px;
-            margin: 0 auto 50px auto;
-
-            h3 {
-                
-                color: #E50010;
-                font-size: 28px;
-                font-weight: bold;
-                text-align: center;
-                padding: 22px 60px 0px;
-            }
-
-            p {
-                color: #222222;
-                font-size: 11px;
-                text-align: center;
-            }
-
-            .b-banner {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                margin-right: 45px;    
-               
-                .links {
-                    display: block;
-                    border: 1px solid #222222;
-                    margin: 0px 6px 0px 6px;
-                    
-                }
-
-                .b-link {
-                    display: flex;
-                    color: #222222;
-                    font-size: 13px;
-                    font-weight: bold;
-                    padding-left: 6px;
-                    padding-right: 6px;
-                    padding-top: 2px;
-                    padding-bottom: 2px;
-                }
-
-                a:link { 
-                    text-decoration: none;
-                }
-                a:visited { 
-                    text-decoration: none; 
-                }
-                a:hover { 
-                    text-decoration: underline; 
-                }
-            }
-        }
+    }
 
     // runda slide
     .parent {
@@ -181,26 +178,27 @@
         }        
     }
 }
-.magazine{
+
+.magazine {
     background-color: #F4EDDD;
 
-    .magazine-bilder{
+    .magazine-bilder {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding: 40px 100px 80px 100px;
     }
- 
 }
-.magazine-text{
 
+.magazine-text {
     text-align: center;
     padding-top: 60px;
-    .magazine-h2{
+
+    .magazine-h2 {
         font-weight: bold;
         font-size: 42px;
     }
-    .magazine-h3{
+    .magazine-h3 {
         font-size: 11px;
         font-weight: bold;
     }
@@ -212,5 +210,4 @@
         color: rgb(125, 120, 120);
         opacity: 0.8;
     }
-
 }
