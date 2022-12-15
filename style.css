@@ -334,14 +334,23 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   text-decoration: underline;
 }
 .main .parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 400px; */
+  background-color: #FAF9F8;
   width: 960px;
   padding-top: 24px;
   padding-bottom: 24px;
   margin: 0 auto 0 auto;
   position: relative;
-  display: flex;
   flex-direction: row;
-  justify-content: center;
+}
+.main .parent .child {
+  width: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: none;
 }
 .main .parent .rund-bild-text-b {
   font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;

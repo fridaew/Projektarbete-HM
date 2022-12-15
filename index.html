@@ -15,8 +15,6 @@
         let left=1;
         let right=5;
 
-
-
       function show(){
         for(i=left;i<=right;i++){
             document.getElementById("c"+i).style.display="inline-block"
@@ -38,6 +36,7 @@
         else
             return;
       }
+      
       function moveLeft(){
         if(left>=2 && right>=6)
         {
@@ -53,61 +52,8 @@
             return;
       }
     
-
     </script>
-
-    <!-- CSS styling slides -->
-    <style type ="text/css">
-    .parent{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* height: 400px; */
-        background-color: #FAF9F8;
-        
-    }
-
-       .child{
-            width: 20%;
-            margin-left: 10px;
-            margin-right: 10px;
-            display: none;
-        }
-
-         a .rund-bild-text{
-            color: black;
-           text-align: center;
-           font-size: 13px;
-           position: relative;
-           right: 25px;
-
-        }
-
-        a{
-            text-decoration: none;
-        }
-    
-        #leftarrow, #rightarrow {
-            margin-left: 12px;
-            width: 10%;
-            display: inline-block;
-        }
-    
-        #leftarrow button, #rightarrow button{
-              
-              cursor: pointer;
-              
-        }
-
-        .arrow-button{
-            border: none;
-            background-color: #FAF9F8;
-        }
-</style>
-    
-    
-        
-    
+      
 </head>
 <body onload="show()">
     <header>
