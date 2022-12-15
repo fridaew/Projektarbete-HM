@@ -1,70 +1,10 @@
 @use"./partails/header";
+@use"./partails/footer";
 
-.footer {
-    background-color: #e4e4e4;
-    font-family: "Sans Regular", "Sans Semi Bold", "Sans Bold";
-    width: 100%;
-    bottom: 0;
-    color: #222222;
-
-    .footer-innehåll {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding-top: 70px;
-        
-    }
-
-    .innehållFooter {
-     display: flex;
-     flex-direction: column;
-     text-decoration: none;
-     color: #222222;
-    }
-
-    .footer-a {
-        color: black;
-        text-decoration: none;
-        padding: 5px;
-        font-size: 11px;
-    }
-    .footer-a:hover {
-        text-decoration: underline;
-    }
-    .footer-h2{
-        font-size: 11px;
-        font-weight: bold;
-    }
-
-    .footerText {
-      font-size: 11px;
-      text-align: center;
-    }
-    
-    .footer-ikoner {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        margin-top: 50px;
-        justify-content: space-around;
-        padding-left: 450px;
-        padding-right: 450px;
-        
-    }
-    .ikon-a{
-        color: #222222;
-    }
-
-    .footerLogo{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
-        font-size: 13px;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
     
 }
 
@@ -101,3 +41,136 @@
     }
 
 }
+
+
+.main {
+    background-color: #FAF9F8;
+    margin: 0;
+    padding: 0; 
+    background-color: #faf9f8;
+
+    p {
+        text-align: center;
+        font-size: 13px;
+    }
+   
+        .bild1, .bild2, .bild3 {
+            width: 960px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            margin: 0 auto 0 auto;
+
+            .buy1 {
+                position: absolute;
+                left: 595px;
+                top: 824px;
+                z-index: 2;
+                background-color: transparent;
+                border: none;
+                font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+
+        .banner {
+            font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            width: 960px;
+            height: 143px;
+            background-color: #F1EBDF;
+            padding-bottom: 50px;
+            margin: 0 auto 50px auto;
+
+            h3 {
+                
+                color: #E50010;
+                font-size: 28px;
+                font-weight: bold;
+                text-align: center;
+                padding: 22px 60px 0px;
+            }
+
+            p {
+                color: #222222;
+                font-size: 11px;
+                text-align: center;
+            }
+
+            .b-banner {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-right: 45px;    
+               
+                .links {
+                    display: block;
+                    border: 1px solid #222222;
+                    margin: 0px 6px 0px 6px;
+                    
+                }
+
+                .b-link {
+                    display: flex;
+                    color: #222222;
+                    font-size: 13px;
+                    font-weight: bold;
+                    padding-left: 6px;
+                    padding-right: 6px;
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                }
+
+                a:link { 
+                    text-decoration: none;
+                }
+                a:visited { 
+                    text-decoration: none; 
+                }
+                a:hover { 
+                    text-decoration: underline; 
+                }
+            }
+        }
+}
+
+
+
+
+//TESTE BIL SLIDER
+
+// .parent{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 400px;//kan ändras -spara hit om ej funkar
+    
+   
+
+//     .child{
+//         width: 20%;
+//         margin-left: 10px;
+//         margin-right: 10px;//spara här om ej funkar
+//         display: none;
+        
+//     }
+
+//     #leftarrow, #rightarrow {
+//         margin-left: 12px;
+//         width: 3%;
+//         display: inline-block;
+//     }
+
+//     #leftarrow button, #rightarrow button{
+//           font-weight: bold;
+//           cursor: pointer;
+//           font-size: 15px;
+//     }
+
+
+
+    
+// }
+
+
+
+//TEST SLUT

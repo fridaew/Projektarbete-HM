@@ -1,21 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Didact Gothic', sans-serif;
-   
-}
+
 
 // ---------------TOP-HEADER---------------------
+
+header {
+    background-color: #FAF9F8;
+
 .top-header{
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+
+    .drop-menu li {
+        list-style: none;
+        text-align: center;
+    }
+
+    .link-left-header ul {
+        
+      margin:0;
+      padding: 0;
+        
+    }
+
+    .link-left-header li:hover .drop-menu{
+        top:55px;
+        opacity:1;
+        visibility: visible;
+     }
+
+    .link-left-header .drop-menu li a:hover{
+        background-color: #f4eddd;
+        width: 100%;
+        height: 100%;
+    }
+
+    .link-left-header .drop-menu li a{
+        background-color: white;
+        
+    }
+
+
+
+    .drop-menu li a{
+        width: 100%;
+        display: block;
+        
+    }
+
+    .link-left-header .drop-menu{
+        // background-color: white;
+        width: 150px;
+        line-height: 30px;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        
+        
+        a{
+            text-decoration: none;
+            color:black
+        }
+    }
+
     
     
 
     .HM-logga{
-        height: 100px;
-        width: 165px;
+        height: 80px;
+        width: 90px;
         margin-top: 10px;
     }
 
@@ -27,7 +79,7 @@
     .link-left-header{
       display: flex;
       flex-direction: row;
-       margin-top: 35px;
+      margin-top: 35px;
 
       .nav-link{
         margin-right: 20px;
@@ -54,11 +106,12 @@
        button {
         margin-left: 10px;
         border:none;
-        background-color: white;
-        
-       }
+        background-color: #FAF9F8;
+      }
 
-       a{
+    
+
+     a{
         color: #222222;
         text-decoration: none;
        }
@@ -66,6 +119,14 @@
        a:hover{
         text-decoration: underline;
        }
+
+       //test icons 
+
+
+      
+
+
+
  }
 
    
@@ -75,7 +136,7 @@
    color: #222222;
 }
 
-    .bi:hover{
+.bi-three-dots:hover{
         color: red;
     }
 
@@ -84,10 +145,25 @@
     }
 }
 
+//----------------SLUT-TOP-HEADER--------------------
+
+
+// teste bilder
+
+
+  
+
+
+
+// test sluuut
+
+
 //--------------NAV-HEADER--------------------
 
 .nav-header{
     position: relative;
+    padding-bottom: 20px;
+    
 
 .mega-box{
     position: absolute;
@@ -96,6 +172,7 @@
     left: 0;
     visibility: hidden;
     font-size: 15px;
+    background-color:#FAF9F8;
     
 
 }
@@ -105,25 +182,29 @@
    padding:25px 20px;
    justify-content: center;
    
+   
 }
 
 .content .row {
-     width: calc(20% - 10px);
-    line-height: 50px;
+    width: calc(20% - 10px);
+    line-height: 40px;
     margin-left:10px;
+    margin-top: 0;
 }
 
-.content .row p{
+.content .row span{
 font-size: 17px;
-background-color: pink;
-
 }
 
 
 
-.row p .mega-links li a { 
+
+
+.row span .mega-links li a { 
 padding: 0 20px; 
 display: block; 
+
+
 } 
 
 
@@ -133,6 +214,7 @@ display: block;
  opacity: 1; 
  visibility: visible; 
  transition: all 0.3 ease;
+
  
  } 
 
@@ -169,6 +251,7 @@ display: block;
         .sökfält{
            border: none;
            text-decoration: underline;
+           background-color: #FAF9F8;
 
         }
 
@@ -190,3 +273,7 @@ display: block;
 
 
 }
+
+}
+
+//----------SLUT-NAVHEADER----
