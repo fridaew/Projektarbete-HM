@@ -8,7 +8,7 @@ header {
 .top-header{
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 13px;
 
     .drop-menu li {
         list-style: none;
@@ -105,7 +105,7 @@ header {
 
        button {
         margin-left: 10px;
-        border:none;
+        border: none;
         background-color: #FAF9F8;
       }
 
@@ -228,7 +228,7 @@ display: block;
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
-    font-size: 1.1rem;
+    font-size: 16px;
 
     .nav-item{
         margin-left: 30px;

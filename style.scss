@@ -15,7 +15,7 @@
     background-color: #FAF9F8;
     margin: 0;
     padding: 0; 
-    background-color: #faf9f8;
+    
 
     p {
         text-align: center;
@@ -40,7 +40,6 @@
                 top: 615px;
                 background-color: transparent;
                 border: none;
-                font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 font-size: 13px;
                 font-weight: bold;
                
@@ -52,7 +51,6 @@
                 top: 585px;
                 background-color: transparent;
                 border: none;
-                font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 font-size: 13px;
                 font-weight: bold;
             }
@@ -71,7 +69,6 @@
         }
         // gula bannern
         .banner {
-            font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             width: 960px;
             height: 143px;
             background-color: #F1EBDF;
@@ -150,14 +147,12 @@
             display: none;
         
             .rund-bild-text-b {
-                font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 color: #707070;
                 font-size: 13px;
                 font-weight: bold;
                 text-align: center;     
                 
                 p {
-                    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                     font-size: 13px;
                     text-align: center;
                 }
@@ -169,7 +164,8 @@
                         color: #222222;
                     }
                     a:hover { 
-                        text-decoration: none;           
+                        text-decoration: none; 
+                        color: #222222;          
                     } 
             }
         }
