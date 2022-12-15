@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Didact Gothic', sans-serif;
+    border: none;
     
 }
 
@@ -53,26 +54,55 @@
         text-align: center;
         font-size: 13px;
     }
-   
+        // stora 3 bilderna
         .bild1, .bild2, .bild3 {
             width: 960px;
             padding-top: 24px;
             padding-bottom: 24px;
             margin: 0 auto 0 auto;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+                    
 
             .buy1 {
                 position: absolute;
-                left: 595px;
-                top: 824px;
-                z-index: 2;
+                display: flex;
+                // z-index: 2;
+                top: 615px;
                 background-color: transparent;
                 border: none;
                 font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                font-size: 12px;
+                font-size: 13px;
+                font-weight: bold;
+               
+            }
+            .buy2, .buy3 {
+                position: absolute;
+                display: flex;
+                // z-index: 2;
+                top: 585px;
+                background-color: transparent;
+                border: none;
+                font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 13px;
                 font-weight: bold;
             }
+            a:link { 
+                text-decoration: none;
+            }
+            a:visited { 
+                text-decoration: none; 
+                color: #222222;
+            }
+            a:hover { 
+                text-decoration: none; 
+                background-color: rgb(237, 237, 237);
+               
+            }
         }
-
+        // gula bannern
         .banner {
             font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             width: 960px;
@@ -131,46 +161,65 @@
                 }
             }
         }
-}
-
-
-
-
-//TESTE BIL SLIDER
-
-// .parent{
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 400px;//kan ändras -spara hit om ej funkar
-    
-   
-
-//     .child{
-//         width: 20%;
-//         margin-left: 10px;
-//         margin-right: 10px;//spara här om ej funkar
-//         display: none;
+    // runda slide
+    .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 400px; */
+        background-color: #FAF9F8;
+        width: 960px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin: 0 auto 0 auto;
+        position: relative;
+        flex-direction: row;
         
-//     }
-
-//     #leftarrow, #rightarrow {
-//         margin-left: 12px;
-//         width: 3%;
-//         display: inline-block;
-//     }
-
-//     #leftarrow button, #rightarrow button{
-//           font-weight: bold;
-//           cursor: pointer;
-//           font-size: 15px;
-//     }
-
-
-
+            
+        .child{
+            width: 20%;
+            margin-left: 10px;
+            margin-right: 10px;
+            display: none;
+        
+            .rund-bild-text-b {
+                font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: #707070;
+                font-size: 13px;
+                font-weight: bold;
+                text-align: center;     
+                
+                p {
+                    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-size: 13px;
+                    text-align: center;
+                }
+                    a:link { 
+                        text-decoration: none;
+                    }
+                    a:visited { 
+                        text-decoration: none; 
+                        color: #222222;
+                    }
+                    a:hover { 
+                        text-decoration: none;           
+                    } 
+            }
+        }
+         
+        #leftarrow, #rightarrow {
+            margin-left: 12px;
+            width: 10%;
+            display: inline-block;
+        }
     
-// }
-
-
-
-//TEST SLUT
+        #leftarrow button, #rightarrow button {
+            cursor: pointer;
+              
+        }
+        .arrow-button{
+            border: none;
+            background-color: #FAF9F8;
+        }        
+    }
+}
