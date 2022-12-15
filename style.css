@@ -189,4 +189,35 @@
   align-items: center;
   padding-bottom: 30px;
   font-size: 13px;
+}
+
+.magazine {
+  background-color: #F4EDDD;
+}
+.magazine .magazine-bilder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 100px 80px 100px;
+}
+
+.magazine-text {
+  text-align: center;
+  padding-top: 60px;
+}
+.magazine-text h2 {
+  font-weight: bold;
+  font-size: 42px;
+}
+.magazine-text h3 {
+  font-size: 11px;
+  font-weight: bold;
+}
+.magazine-text a {
+  color: #222222;
+  font-weight: bold;
+}
+.magazine-text a:hover {
+  color: rgb(125, 120, 120);
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
