@@ -205,19 +205,19 @@
   text-align: center;
   padding-top: 60px;
 }
-.magazine-text h2 {
+.magazine-text .magazine-h2 {
   font-weight: bold;
   font-size: 42px;
 }
-.magazine-text h3 {
+.magazine-text .magazine-h3 {
   font-size: 11px;
   font-weight: bold;
 }
-.magazine-text a {
+.magazine-text .magazine-a {
   color: #222222;
   font-weight: bold;
 }
-.magazine-text a:hover {
+.magazine-text .magazine-a:hover {
   color: rgb(125, 120, 120);
   opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
