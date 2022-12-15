@@ -80,9 +80,11 @@ header {
       display: flex;
       flex-direction: row;
       margin-top: 35px;
+     
 
       .nav-link{
         margin-right: 20px;
+       
       }
 
       a{
@@ -163,6 +165,8 @@ header {
 .nav-header{
     position: relative;
     padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
     
 
 .mega-box{
