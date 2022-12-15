@@ -9,11 +9,7 @@ header .top-header {
 }
 header .top-header .drop-menu li {
   list-style: none;
-  text-align: center;
-}
-header .top-header .link-left-header ul {
-  margin: 0;
-  padding: 0;
+  text-align: left;
 }
 header .top-header .link-left-header li:hover .drop-menu {
   top: 55px;
@@ -21,7 +17,7 @@ header .top-header .link-left-header li:hover .drop-menu {
   visibility: visible;
 }
 header .top-header .link-left-header .drop-menu li a:hover {
-  background-color: #f4eddd;
+  background-color: beige;
   width: 100%;
   height: 100%;
 }
@@ -33,6 +29,7 @@ header .top-header .drop-menu li a {
   display: block;
 }
 header .top-header .link-left-header .drop-menu {
+  background-color: white;
   width: 150px;
   line-height: 30px;
   position: absolute;
@@ -233,15 +230,11 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 }
 
 .main {
+  background-color: #FAF9F8;
   margin: 0;
   padding: 0;
-  background-color: #faf9f8;
 }
-.main p {
-  text-align: center;
-  font-size: 13px;
-}
-.main .bild1 {
+.main .bild1, .main .bild2, .main .bild3 {
   width: 960px;
   padding-top: 24px;
   padding-bottom: 24px;
