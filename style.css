@@ -230,10 +230,11 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 }
 
 .main {
+  background-color: #FAF9F8;
   margin: 0;
   padding: 0;
 }
-.main .bild1 {
+.main .bild1, .main .bild2, .main .bild3 {
   width: 960px;
   padding-top: 24px;
   padding-bottom: 24px;
