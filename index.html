@@ -60,8 +60,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 400px;
+        /* height: 400px; */
+        background-color: #FAF9F8;
+        
     }
+
+    
         
        
     
@@ -70,20 +74,39 @@
             margin-left: 10px;
             margin-right: 10px;
             display: none;
-            
+        }
+
+         a .rund-bild-text{
+            color: black;
+           text-align: center;
+           font-size: 13px;
+           position: relative;
+           right: 25px;
+
+        }
+
+        a{
+            text-decoration: none;
         }
     
         #leftarrow, #rightarrow {
             margin-left: 12px;
-            width: 3%;
+            width: 10%;
             display: inline-block;
         }
     
         #leftarrow button, #rightarrow button{
-              font-weight: bold;
+              
               cursor: pointer;
-              font-size: 15px;
+              
         }
+
+        .arrow-button{
+            border: none;
+            background-color: #FAF9F8;
+        }
+
+        
     
     </style>
     
@@ -657,45 +680,74 @@
 
 <!-- test bilder -->
 
-<!-- <div onload="show()"> -->
+
 <div class="parent">
 
     <div id="leftarrow" onclick="moveLeft()">
-        <button>&lt;</button>
+        <button class="arrow-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg></button>
     </div>
 
     <div class="child" id="c1">
+        <a href="#">
         <img src="Bilder HM/Småbilder/Rund1 Dam.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Koftor & Tröjor</p>
+       </a>
     </div>
     <div class="child" id="c2">
+        <a href="#">
         <img src="Bilder HM/Småbilder/Rund2 Nyheter.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Kläder</p>
+        
+    </a>
     </div>
     <div class="child" id="c3">
+        <a href="#">
         <img src="Bilder HM/Småbilder/Rund3 Dam.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Byxor</p>
+        </a>
     </div>
     <div class="child" id="c4">
+        <a href="#">
         <img src="Bilder HM/Småbilder/Rund4 Dam.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Toppar</p>
+        </a>
     </div>
     <div class="child" id="c5">
         <img src="Bilder HM/Småbilder/Rund5 Dam.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Klänningar</p>
     </div>
     <div class="child" id="c6">
         <img src="Bilder HM/Småbilder/Rund6 Nyheter.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Nyheter</p>
     </div>
     <div class="child" id="c7">
         <img src="Bilder HM/Småbilder/Rund7 Dam.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Skjortor & Blusar</p>
     </div>
     <div class="child" id="c8">
         <img src="Bilder HM/Småbilder/Rund8 HM Home.jpg" alt="">
+        <p class="rund-bild-text">Dam</p>
+        <p class="rund-bild-text">Vardagsrum</p>
     </div>
 
     <div id="rightarrow" onclick="moveRight()">
-        <button>&gt;</button>
+        <button class="arrow-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg></button>
     </div>
    
 </div>
 
-<!-- </div> -->
+
 
 
 
