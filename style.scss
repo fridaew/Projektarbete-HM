@@ -10,3 +10,73 @@
 
 
 
+.main {
+    margin: 0;
+    padding: 0; 
+   
+        .bild1 {
+            width: 960px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            margin: 0 auto 0 auto;
+        }
+
+        .banner {
+            font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            width: 960px;
+            height: 143px;
+            background-color: #F1EBDF;
+            padding-bottom: 50px;
+            margin: 0 auto 50px auto;
+
+            h3 {
+                
+                color: #E50010;
+                font-size: 28px;
+                font-weight: bold;
+                text-align: center;
+                padding: 22px 60px 0px;
+            }
+
+            p {
+                color: #222222;
+                font-size: 11px;
+                text-align: center;
+            }
+
+            .b-banner {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-right: 45px;    
+               
+                .links {
+                    display: block;
+                    border: 1px solid #222222;
+                    margin: 0px 6px 0px 6px;
+                    
+                }
+
+                .b-link {
+                    display: flex;
+                    color: #222222;
+                    font-size: 13px;
+                    font-weight: bold;
+                    padding-left: 6px;
+                    padding-right: 6px;
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                }
+
+                a:link { 
+                    text-decoration: none;
+                }
+                a:visited { 
+                    text-decoration: none; 
+                }
+                a:hover { 
+                    text-decoration: underline; 
+                }
+            }
+        }
+}
