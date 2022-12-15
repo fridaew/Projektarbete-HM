@@ -417,4 +417,16 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 .main .parent .arrow-button {
   border: none;
   background-color: #FAF9F8;
+}
+
+.styleboards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 400px; */
+  background-color: #FAF9F8;
+  width: 960px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  flex-direction: row;
 }/*# sourceMappingURL=style.css.map */

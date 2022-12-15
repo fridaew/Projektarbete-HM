@@ -223,3 +223,18 @@
         }        
     }
 }
+
+// ------------styleboards style ----------------
+.styleboards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 400px; */
+        background-color: #FAF9F8;
+        width: 960px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+      
+        flex-direction: row;
+
+}
