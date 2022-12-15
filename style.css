@@ -230,6 +230,7 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   margin: 0;
   padding: 0;
   font-family: "Didact Gothic", sans-serif;
+  border: none;
 }
 
 .main {
@@ -352,25 +353,37 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   margin-right: 10px;
   display: none;
 }
-.main .parent .rund-bild-text-b {
+.main .parent .child .rund-bild-text-b {
   font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #707070;
   font-size: 13px;
   font-weight: bold;
   text-align: center;
 }
-.main .parent .rund-bild-text-b p {
+.main .parent .child .rund-bild-text-b p {
   font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 13px;
   text-align: center;
 }
-.main a:link {
+.main .parent .child .rund-bild-text-b a:link {
   text-decoration: none;
 }
-.main a:visited {
+.main .parent .child .rund-bild-text-b a:visited {
   text-decoration: none;
   color: #222222;
 }
-.main a:hover {
+.main .parent .child .rund-bild-text-b a:hover {
   text-decoration: none;
+}
+.main .parent #leftarrow, .main .parent #rightarrow {
+  margin-left: 12px;
+  width: 10%;
+  display: inline-block;
+}
+.main .parent #leftarrow button, .main .parent #rightarrow button {
+  cursor: pointer;
+}
+.main .parent .arrow-button {
+  border: none;
+  background-color: #FAF9F8;
 }/*# sourceMappingURL=style.css.map */
