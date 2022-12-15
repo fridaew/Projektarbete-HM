@@ -247,17 +247,41 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   padding-top: 24px;
   padding-bottom: 24px;
   margin: 0 auto 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .main .bild1 .buy1, .main .bild2 .buy1, .main .bild3 .buy1 {
   position: absolute;
-  left: 595px;
-  top: 824px;
-  z-index: 2;
+  display: flex;
+  top: 615px;
   background-color: transparent;
   border: none;
   font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
+}
+.main .bild1 .buy2, .main .bild1 .buy3, .main .bild2 .buy2, .main .bild2 .buy3, .main .bild3 .buy2, .main .bild3 .buy3 {
+  position: absolute;
+  display: flex;
+  top: 585px;
+  background-color: transparent;
+  border: none;
+  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.main .bild1 a:link, .main .bild2 a:link, .main .bild3 a:link {
+  text-decoration: none;
+}
+.main .bild1 a:visited, .main .bild2 a:visited, .main .bild3 a:visited {
+  text-decoration: none;
+  color: #222222;
+}
+.main .bild1 a:hover, .main .bild2 a:hover, .main .bild3 a:hover {
+  text-decoration: none;
+  background-color: rgb(237, 237, 237);
 }
 .main .banner {
   font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -308,4 +332,36 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 }
 .main .banner .b-banner a:hover {
   text-decoration: underline;
+}
+.main .parent {
+  width: 960px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main .parent .rund-bild-text-b {
+  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #707070;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+.main .parent .rund-bild-text-b p {
+  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+.main a:link {
+  text-decoration: none;
+}
+.main a:visited {
+  text-decoration: none;
+  color: #222222;
+}
+.main a:hover {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
