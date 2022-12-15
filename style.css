@@ -95,6 +95,8 @@ header .top-header .nav-list li {
 header .nav-header {
   position: relative;
   padding-bottom: 20px;
+  position: relative;
+  z-index: 1;
 }
 header .nav-header .mega-box {
   position: absolute;
