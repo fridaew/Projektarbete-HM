@@ -248,6 +248,17 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   padding-bottom: 24px;
   margin: 0 auto 0 auto;
 }
+.main .bild1 .buy1, .main .bild2 .buy1, .main .bild3 .buy1 {
+  position: absolute;
+  left: 595px;
+  top: 824px;
+  z-index: 2;
+  background-color: transparent;
+  border: none;
+  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
 .main .banner {
   font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 960px;
