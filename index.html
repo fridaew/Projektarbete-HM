@@ -8,8 +8,90 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+
+
+    <script type="text/javascript">
+        let left=1;
+        let right=5;
+
+
+
+      function show(){
+        for(i=left;i<=right;i++){
+            document.getElementById("c"+i).style.display="inline-block"
+        }
+        
+      }
+
+      function moveRight(){
+        if(left<=3 && right<=7)
+        {
+            document.getElementById("c"+left).style.display="none";
+            left+=1;
+            right+=1;
+
+            for(i=left;i<=right;i++){
+                document.getElementById("c"+i).style.display="inline-block"
+            }
+        }
+        else
+            return;
+      }
+      function moveLeft(){
+        if(left>=2 && right>=6)
+        {
+            document.getElementById("c"+right).style.display="none";
+            left-=1;
+            right-=1;
+
+            for(i=left;i<=right;i++){
+                document.getElementById("c"+i).style.display="inline-block"
+            }
+        }
+        else
+            return;
+      }
+    
+
+    </script>
+    <style type ="text/css">
+    .parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+        
+       
+    
+        .child{
+            width: 20%;
+            margin-left: 10px;
+            margin-right: 10px;
+            display: none;
+            
+        }
+    
+        #leftarrow, #rightarrow {
+            margin-left: 12px;
+            width: 3%;
+            display: inline-block;
+        }
+    
+        #leftarrow button, #rightarrow button{
+              font-weight: bold;
+              cursor: pointer;
+              font-size: 15px;
+        }
+    
+    </style>
+    
+    
+        
+    
 </head>
-<body>
+<body onload="show()">
     <header>
 
     <section class="top-header">
@@ -520,7 +602,7 @@
     </header>
 
 
-    <!-- test-bilder -->
+  
 
 
    
@@ -529,7 +611,7 @@
       
 
 
-    <!-- test-bilder -->
+ 
 
 
 
@@ -570,6 +652,54 @@
         </ul>
     </section>
 </div>
+
+
+
+<!-- test bilder -->
+
+<!-- <div onload="show()"> -->
+<div class="parent">
+
+    <div id="leftarrow" onclick="moveLeft()">
+        <button>&lt;</button>
+    </div>
+
+    <div class="child" id="c1">
+        <img src="Bilder HM/Småbilder/Rund1 Dam.jpg" alt="">
+    </div>
+    <div class="child" id="c2">
+        <img src="Bilder HM/Småbilder/Rund2 Nyheter.jpg" alt="">
+    </div>
+    <div class="child" id="c3">
+        <img src="Bilder HM/Småbilder/Rund3 Dam.jpg" alt="">
+    </div>
+    <div class="child" id="c4">
+        <img src="Bilder HM/Småbilder/Rund4 Dam.jpg" alt="">
+    </div>
+    <div class="child" id="c5">
+        <img src="Bilder HM/Småbilder/Rund5 Dam.jpg" alt="">
+    </div>
+    <div class="child" id="c6">
+        <img src="Bilder HM/Småbilder/Rund6 Nyheter.jpg" alt="">
+    </div>
+    <div class="child" id="c7">
+        <img src="Bilder HM/Småbilder/Rund7 Dam.jpg" alt="">
+    </div>
+    <div class="child" id="c8">
+        <img src="Bilder HM/Småbilder/Rund8 HM Home.jpg" alt="">
+    </div>
+
+    <div id="rightarrow" onclick="moveRight()">
+        <button>&gt;</button>
+    </div>
+   
+</div>
+
+<!-- </div> -->
+
+
+
+<!-- slut test bilder -->
 
 
     <!--Footer-->
@@ -672,7 +802,7 @@
 
         <!--Footer slut-->
 
-<script src="script.js"></script>
+<!-- <script src="script.js"></script> -->
 
 </body>
 </html>
