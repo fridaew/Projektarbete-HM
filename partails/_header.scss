@@ -133,6 +133,8 @@ header {
     .nav-header{
         position: relative;
         padding-bottom: 20px;
+        position: relative;
+        z-index: 1;
         
         .mega-box{
             position: absolute;
