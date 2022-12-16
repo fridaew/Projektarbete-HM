@@ -235,6 +235,13 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   border: none;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Didact Gothic", sans-serif;
+  border: none;
+}
+
 .main {
   background-color: #FAF9F8;
   margin: 0;
