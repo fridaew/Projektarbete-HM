@@ -387,6 +387,7 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   justify-content: center;
   margin: 0 auto 0 auto;
   position: relative;
+  justify-content: space-between;
 }
 
 .styleboards-h3 {
