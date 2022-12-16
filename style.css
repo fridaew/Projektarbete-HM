@@ -383,8 +383,10 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 .styleboards .styleboards-bilder {
   display: flex;
   flex-direction: row;
-  padding-left: 100px;
-  justify-content: space-between;
+  width: 960px;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  position: relative;
 }
 
 .styleboard-bild {
