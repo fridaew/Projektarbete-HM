@@ -365,12 +365,14 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   font-size: 13px;
   text-align: center;
 }
-.main .parent #leftarrow, .main .parent #rightarrow {
+.main .parent #leftarrow,
+.main .parent #rightarrow {
   margin-left: 12px;
   width: 10%;
   display: inline-block;
 }
-.main .parent #leftarrow button, .main .parent #rightarrow button {
+.main .parent #leftarrow button,
+.main .parent #rightarrow button {
   cursor: pointer;
 }
 .main .parent .arrow-button {
@@ -378,6 +380,50 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   background-color: #FAF9F8;
 }
 
+.styleboards .styleboards-bilder {
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  position: relative;
+  justify-content: space-between;
+}
+
+.styleboards-h3 {
+  font-size: 20px;
+  color: #222222;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+/*    .styleboard-bild {
+        width: 20%;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: none;
+
+    }
+
+    #leftarrow,
+    #rightarrow {
+        margin-left: 12px;
+        width: 10%;
+        display: inline-block;
+    }
+
+    #leftarrow button,
+    #rightarrow button {
+        cursor: pointer;
+
+    }
+
+    .arrow-button {
+        border: none;
+        background-color: #FAF9F8;
+    }
+
+*/
 .magazine {
   background-color: #F4EDDD;
 }

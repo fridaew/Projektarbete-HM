@@ -12,49 +12,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
 
 
- <!-- Scrip till slides -->
+    <!-- Scrip till slides -->
     <script type="text/javascript">
-        let left=1;
-        let right=5;
+        let left = 1;
+        let right = 5;
 
-      function show(){
-        for(i=left;i<=right;i++){
-            document.getElementById("c"+i).style.display="inline-block"
-        }
-        
-      }
-
-      function moveRight(){
-        if(left<=3 && right<=7)
-        {
-            document.getElementById("c"+left).style.display="none";
-            left+=1;
-            right+=1;
-
-            for(i=left;i<=right;i++){
-                document.getElementById("c"+i).style.display="inline-block"
+        function show() {
+            for (i = left; i <= right; i++) {
+                document.getElementById("c" + i).style.display = "inline-block"
             }
-        }
-        else
-            return;
-      }
-      
-      function moveLeft(){
-        if(left>=2 && right>=6)
-        {
-            document.getElementById("c"+right).style.display="none";
-            left-=1;
-            right-=1;
 
-            for(i=left;i<=right;i++){
-                document.getElementById("c"+i).style.display="inline-block"
-            }
         }
-        else
-            return;
-      }
-    
-    </script>  
+
+        function moveRight() {
+            if (left <= 3 && right <= 7) {
+                document.getElementById("c" + left).style.display = "none";
+                left += 1;
+                right += 1;
+
+                for (i = left; i <= right; i++) {
+                    document.getElementById("c" + i).style.display = "inline-block"
+                }
+            }
+            else
+                return;
+        }
+
+        function moveLeft() {
+            if (left >= 2 && right >= 6) {
+                document.getElementById("c" + right).style.display = "none";
+                left -= 1;
+                right -= 1;
+
+                for (i = left; i <= right; i++) {
+                    document.getElementById("c" + i).style.display = "inline-block"
+                }
+            }
+            else
+                return;
+        }
+
+    </script>
 </head>
 
 <body onload="show()">
@@ -669,6 +667,51 @@
         </div>
     
         <!-- slide-runda bilder slut -->
+        <!-- Populära styleboards -->
+        <section class="styleboards">
+            <div>
+                <h3 class="styleboards-h3">Populära styleboards</h3>
+            </div>
+
+
+            <!-- 
+            <div class="styleboards">
+                <div id="leftarrow" onclick="moveLeft()">
+                    <button class="arrow-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                    </svg></button>
+                </div>
+            -->
+
+
+
+            <div class="styleboards-bilder">
+                <div class="styleboard-bild" id="b1"><a href="#"><img src="Bilder Hm/Styleboards/StyleB1.jpg"alt="Kläder"></a></div>
+
+                <div class="styleboard-bild" id="b2"><a href="#"><img src="Bilder Hm/Styleboards/StyleB2.jpg"alt="Kläder"></a></div>
+            
+                <div class="styleboard-bild" id="b3"><a href="#"><img src="Bilder Hm/Styleboards/StyleB3.jpg"alt="Kläder"></a></div>
+
+                <!--    <div class="styleboard-bild" id="b4"><a href="#"><img src="Bilder Hm/Styleboards/StyleB4.jpg"alt="Kläder"></a></div>
+
+                <div class="styleboard-bild" id="b5"><a href="#"><img src="Bilder Hm/Styleboards/StyleB5.jpg" alt="Kläder"></a></div>
+                </div>
+         
+                <div id="rightarrow" onclick="moveRight()">
+                    <button class="arrow-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg></button>
+                </div>  -->
+
+            </div>
+        </section>
+        <!-- Populära styleboards slut -->
+
+
         <!-- Sista stora bilderan -->
         <div class="bild2">
             <a href="#">
@@ -696,9 +739,9 @@
         </div>
 
         <div class="magazine-bilder">
-           <div class="magazine-bild"><a href="#"> <img src="Bilder HM/Magazine/Magazine1.jpg" alt="bild"></a></div>
-           <div class="magazine-bild"> <a href="#">  <img src="Bilder HM/Magazine/Magazine2.jpg" alt="bild"></a></div>
-           <div class="magazine-bild"> <a href="#">  <img src="Bilder HM/Magazine/Magazine3.jpg" alt="bild"></a></div>
+            <div class="magazine-bild"><a href="#"> <img src="Bilder HM/Magazine/Magazine1.jpg" alt="bild"></a></div>
+            <div class="magazine-bild"> <a href="#"> <img src="Bilder HM/Magazine/Magazine2.jpg" alt="bild"></a></div>
+            <div class="magazine-bild"> <a href="#"> <img src="Bilder HM/Magazine/Magazine3.jpg" alt="bild"></a></div>
         </div>
 
     </section>
