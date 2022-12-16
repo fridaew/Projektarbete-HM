@@ -1,61 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H&M</title>
+    <title>Layer2 Dam</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
 
-
-    <!-- Scrip till slides -->
-    <script type="text/javascript">
-        let left = 1;
-        let right = 5;
-
-        function show() {
-            for (i = left; i <= right; i++) {
-                document.getElementById("c" + i).style.display = "inline-block"
-            }
-
-        }
-
-        function moveRight() {
-            if (left <= 3 && right <= 7) {
-                document.getElementById("c" + left).style.display = "none";
-                left += 1;
-                right += 1;
-
-                for (i = left; i <= right; i++) {
-                    document.getElementById("c" + i).style.display = "inline-block"
-                }
-            }
-            else
-                return;
-        }
-
-        function moveLeft() {
-            if (left >= 2 && right >= 6) {
-                document.getElementById("c" + right).style.display = "none";
-                left -= 1;
-                right -= 1;
-
-                for (i = left; i <= right; i++) {
-                    document.getElementById("c" + i).style.display = "inline-block"
-                }
-            }
-            else
-                return;
-        }
-
-    </script>
 </head>
-
-<body onload="show()">
+<body>
+    <!-- header start -->
     <header>
         <section class="top-header">
             <ul class="link-left-header">
@@ -536,219 +493,147 @@
             </ul>
         </section>
     </header>
+    <!-- header slut  -->
+
+    <main>
+        <!-- sidoMeny start  -->
 
 
 
-    <!-- test-bilder -->
-      
 
 
-    <!-- test-bilder -->
- 
 
 
-    <!-- Main Startsidan -->
-    <div class="main">
-        <p>Fri standardfrakt för medlemmar vid köp över 200kr</p>
 
-        <div class="bild1">
-            <a href="#"><img src="Bilder HM/Bild1 StartBild.jpg" alt="VinterBild"></a>
-            <button class="buy1"><a href="#">Shoppa nu</a></button>
-        </div>
 
-        <section class="banner">
-            <h3>30% på ytterkläder för medlemmar</h3>
-            <p>Gäller online t.o.m. 2022-12-14 när du shoppar för minst 400 kr. Läs villkor i H&M-appen.</p>
 
-            <ul class="b-banner">
-                <li class="links">
-                    <a href="#" class="b-link">Dam</a>
-                </li>
-                <li class="links" class="b-link">
-                    <a href="#" class="b-link">Divided</a>
-                </li>
-                <li class="links">
-                    <a href="#" class="b-link">Herr</a>
-                </li>
-                <li class="links">
-                    <a href="#" class="b-link">Barn</a>
-                </li>
-                <li class="links">
-                    <a href="#" class="b-link">Baby</a>
-                </li>
-                <li class="links">
-                    <a href="#" class="b-link">Bli medlem</a>
-                </li>
-            </ul>
-        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- sidoMeny slut -->
         
-        <!-- Slide-runda bilder -->
-        <div class="kategorier">
-            <h3 class="kategori-h3">Populära styleboards</h3>
-        </div>
-        <div class="parent">
-            <div id="leftarrow" onclick="moveLeft()">
-                <button class="arrow-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-                    </svg>
-                </button>
-            </div>
-
-            <div class="child" id="c1">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund1 Dam.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Dam</h2>
-                    <p>Koftor & Tröjor</p>
-                </a>
-            </div>
-            <div class="child" id="c2">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund2 Nyheter.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Dam</h2>
-                    <p>Kläder</p>   
-                </a>
-            </div>
-            <div class="child" id="c3">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund3 Dam.jpg" alt="">
-                    <p class="rund-bild-text-b">Dam</p>
-                    <p>Byxor</p>
-                </a>
-            </div>
-            <div class="child" id="c4">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund4 Dam.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Dam</h2>
-                    <p>Toppar</p>
-                </a>
-            </div>
-            <div class="child" id="c5">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund5 Dam.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Dam</h2>
-                    <p>Klänningar</p>
-                </a>
-            </div>
-            <div class="child" id="c6">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund6 Nyheter.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Flicka 2-8 År</h2>
-                    <p>Nyheter</p>
-                </a>
-            </div>
-            <div class="child" id="c7">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund7 Dam.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Dam</h2>
-                    <p>Skjortor & Blusar</p>
-                </a>
-            </div>
-            <div class="child" id="c8">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund8 HM Home.jpg" alt="">
-                    <h2 class="rund-bild-text-b">H&M Home</h2>
-                    <p>Vardagsrum</p>
-                </a>
-            </div>
-            <div class="child" id="c8">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund9 HM Home.jpg" alt="">
-                    <h2 class="rund-bild-text-b">H&M Home</h2>
-                    <p>Sovrum</p>
-                </a>
-            </div>
-            <div id="rightarrow" onclick="moveRight()">
-                <button class="arrow-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    
-        <!-- slide-runda bilder slut -->
-        <!-- Populära styleboards -->
-        <section class="styleboards">
-            <div>
-                <h3 class="styleboards-h3">Populära styleboards</h3>
-            </div>
-
-
-            <!-- 
-            <div class="styleboards">
-                <div id="leftarrow" onclick="moveLeft()">
-                    <button class="arrow-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                    </svg></button>
-                </div>
-            -->
+        <!-- innehåll main start  -->
 
 
 
-            <div class="styleboards-bilder">
-                <div class="styleboard-bild" id="b1"><a href="#"><img src="Bilder Hm/Styleboards/StyleB1.jpg"alt="Kläder"></a></div>
-
-                <div class="styleboard-bild" id="b2"><a href="#"><img src="Bilder Hm/Styleboards/StyleB2.jpg"alt="Kläder"></a></div>
-            
-                <div class="styleboard-bild" id="b3"><a href="#"><img src="Bilder Hm/Styleboards/StyleB3.jpg"alt="Kläder"></a></div>
-
-                <!--    <div class="styleboard-bild" id="b4"><a href="#"><img src="Bilder Hm/Styleboards/StyleB4.jpg"alt="Kläder"></a></div>
-
-                <div class="styleboard-bild" id="b5"><a href="#"><img src="Bilder Hm/Styleboards/StyleB5.jpg" alt="Kläder"></a></div>
-                </div>
-         
-                <div id="rightarrow" onclick="moveRight()">
-                    <button class="arrow-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                    </svg></button>
-                </div>  -->
-
-            </div>
-        </section>
-        <!-- Populära styleboards slut -->
 
 
-        <!-- Sista stora bilderan -->
-        <div class="bild2">
-            <a href="#">
-                <img src="Bilder HM/Bild2 startsida.jpg" alt="VinterBild">
-            </a>
-            <button class="buy2"><a href="#">Shoppa nu</a></button>
-        </div>
-        <div class="bild3">
-            <a href="#">
-                <img src="Bilder HM/Bild3 startsida.jpg" alt="VinterBild">
-            </a> 
-            <button class="buy3"><a href="#">Shoppa nu</a></button>
-        </div>
-    </div>
 
-    
 
-    <!--Magazine del start sidan -->
-    
-    <section class="magazine">
-        <div class="magazine-text">
-            <h2 class="magazine-h2">MAGAZINE</h2>
-            <h3 class="magazine-h3">A WORLD OF INSPIRATION</h3>
-            <a class="magazine-a" href="#">READ H&M MAGAZINE</a>
-        </div>
 
-        <div class="magazine-bilder">
-            <div class="magazine-bild"><a href="#"> <img src="Bilder HM/Magazine/Magazine1.jpg" alt="bild"></a></div>
-            <div class="magazine-bild"> <a href="#"> <img src="Bilder HM/Magazine/Magazine2.jpg" alt="bild"></a></div>
-            <div class="magazine-bild"> <a href="#"> <img src="Bilder HM/Magazine/Magazine3.jpg" alt="bild"></a></div>
-        </div>
 
-    </section>
 
-    <!--Magazine del slut -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- innehåll main slut  -->
+    </main>
     <!--Footer-->
     <footer class="footer">
         <div class="footer-innehåll">
@@ -847,10 +732,6 @@
             </div>
         </div>
     </footer>
-
-    <!--Footer slut-->
-
-    <script src="script.js"></script>
+    <!-- footer slut -->
 </body>
-
 </html>
