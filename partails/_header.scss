@@ -5,275 +5,223 @@
 header {
     background-color: #FAF9F8;
 
-.top-header{
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
+    .top-header {
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
 
-    .drop-menu li {
-        list-style: none;
-        text-align: center;
-    }
-
-    .link-left-header ul {
-        
-      margin:0;
-      padding: 0;
-        
-    }
-
-    .link-left-header li:hover .drop-menu{
-        top:55px;
-        opacity:1;
-        visibility: visible;
-     }
-
-    .link-left-header .drop-menu li a:hover{
-        background-color: #f4eddd;
-        width: 100%;
-        height: 100%;
-    }
-
-    .link-left-header .drop-menu li a{
-        background-color: white;
-        
-    }
-
-
-
-    .drop-menu li a{
-        width: 100%;
-        display: block;
-        
-    }
-
-    .link-left-header .drop-menu{
-        // background-color: white;
-        width: 150px;
-        line-height: 30px;
-        position: absolute;
-        opacity: 0;
-        visibility: hidden;
-        
-        
-        a{
-            text-decoration: none;
-            color:black
+        .drop-menu li {
+            list-style: none;
+            text-align: center;
         }
-    }
 
-    
-    
-
-    .HM-logga{
-        height: 80px;
-        width: 90px;
-        margin-top: 10px;
-    }
-
-
-    .link-left-header li{
+        .link-left-header ul {
+            margin:0;
+            padding: 0;
         
-        list-style: none;  
-      }
-    .link-left-header{
-      display: flex;
-      flex-direction: row;
-      margin-top: 35px;
+        }
 
-      .nav-link{
-        margin-right: 20px;
-      }
+        .link-left-header li:hover .drop-menu {
+            top:55px;
+            opacity:1;
+            visibility: visible;
+        }
 
-      a{
-        color: black;
-      }
+        .link-left-header .drop-menu li a:hover {
+            background-color: #f4eddd;
+            width: 100%;
+            height: 100%;
+        }
 
-      a:hover{
-        text-decoration: underline;
-      }
-      
-    }
+        .link-left-header .drop-menu li a {
+            background-color: white;
+        }
 
+        .drop-menu li a {
+            width: 100%;
+            display: block;
+        }
 
-
-    .header-button-icons {
-        margin-right: 40px;
-        display: inline-block;
-        position: relative;
-        margin-top: 40px;
-
-       button {
-        margin-left: 10px;
-        border:none;
-        background-color: #FAF9F8;
-      }
-
+        .link-left-header .drop-menu {
+            // background-color: white;
+            width: 150px;
+            line-height: 30px;
+            position: absolute;
+            opacity: 0;
+            visibility: hidden;
+                
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
     
+        .HM-logga {
+            height: 80px;
+            width: 90px;
+            margin-top: 10px;
+        }
 
-     a{
-        color: #222222;
-        text-decoration: none;
-       }
+        .link-left-header li {  
+            list-style: none;  
+        }
 
-       a:hover{
-        text-decoration: underline;
-       }
+        .link-left-header {
+            display: flex;
+            flex-direction: row;
+            margin-top: 35px;
 
+            .nav-link {
+                margin-right: 20px;
+            }
+
+            a {
+                color: black;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }  
+        }
+
+        .header-button-icons {
+            margin-right: 40px;
+            display: inline-block;
+            position: relative;
+            margin-top: 40px;
+
+            button {
+                margin-left: 10px;
+                border: none;
+                background-color: #FAF9F8;
+            }
+  
+            a {
+                color: #222222;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
        //test icons 
 
-
-      
-
-
-
- }
-
-   
-
-
-.bi {
-   color: #222222;
-}
-
-.bi-three-dots:hover{
-        color: red;
-    }
-
-    .nav-list li {
-        list-style: none;
-    }
-}
-
-//----------------SLUT-TOP-HEADER--------------------
-
-
-// teste bilder
-
-
-  
-
-
-
-// test sluuut
-
-
-//--------------NAV-HEADER--------------------
-
-.nav-header{
-    position: relative;
-    padding-bottom: 20px;
-    
-
-.mega-box{
-    position: absolute;
-    top:50px;
-    width: 100%;
-    left: 0;
-    visibility: hidden;
-    font-size: 15px;
-    background-color:#FAF9F8;
-    
-
-}
-
-.mega-box .content {
-   display: flex;
-   padding:25px 20px;
-   justify-content: center;
-   
-   
-}
-
-.content .row {
-    width: calc(20% - 10px);
-    line-height: 40px;
-    margin-left:10px;
-    margin-top: 0;
-}
-
-.content .row span{
-font-size: 17px;
-}
-
-
-
-
-
-.row span .mega-links li a { 
-padding: 0 20px; 
-display: block; 
-
-
-} 
-
-
-
-.nav-list li:hover .mega-box{ 
- top:25px; 
- opacity: 1; 
- visibility: visible; 
- transition: all 0.3 ease;
-
- 
- } 
-
-
-.nav-list li{
-        
-    list-style: none;  
-  }
-.nav-list{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
-    font-size: 1.1rem;
-
-    .nav-item{
-        margin-left: 30px;
-    }
-
-    a{
-        text-decoration: none;
-        color: #222222;
-    }
-
-    a:hover{
-        color: #222222;
-        text-decoration: underline;
-    }
-
-    .search-form {
-        margin-left: 25px;
-        
-        
-        .sökfält{
-           border: none;
-           text-decoration: underline;
-           background-color: #FAF9F8;
-
+        .bi {
+            color: #222222;
         }
 
-        .sökfält:hover fieldset{
-            border: none;
+        .bi-three-dots:hover {
+            color: red;
         }
 
-        input:focus, input:hover, 
-        select:focus, select:hover {
-        outline: none;
-        border: none;
-    
+        .nav-list li {
+            list-style: none;
         }
-
-        
     }
 
+    //----------------SLUT-TOP-HEADER--------------------
+
+
+    // teste bilder
+
+    // test sluuut
+
+
+    //--------------NAV-HEADER--------------------
+
+    .nav-header{
+        position: relative;
+        padding-bottom: 20px;
+        position: relative;
+        z-index: 1;
+        
+        .mega-box{
+            position: absolute;
+            top:50px;
+            width: 100%;
+            left: 0;
+            visibility: hidden;
+            font-size: 15px;
+            background-color:#FAF9F8;
+        }
+
+        .mega-box .content {
+            display: flex;
+            padding:25px 20px;
+            justify-content: center;  
+        }
+
+        .content .row {
+            width: calc(20% - 10px);
+            line-height: 40px;
+            margin-left:10px;
+            margin-top: 0;
+        }
+
+        .content .row span{
+            font-size: 17px;
+        }
+
+        .row span .mega-links li a { 
+            padding: 0 20px; 
+            display: block; 
+        } 
+
+        .nav-list li:hover .mega-box { 
+            top:25px; 
+            opacity: 1; 
+            visibility: visible; 
+            transition: all 0.3 ease;
+        } 
+
+        .nav-list li { 
+            list-style: none;  
+        }
+
+        .nav-list {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 20px;
+            font-size: 16px;
+
+            .nav-item {
+                margin-left: 30px;
+            }
+
+            a{
+                text-decoration: none;
+                color: #222222;
+            }
+
+            a:hover{
+                color: #222222;
+                text-decoration: underline;
+            }
+
+            .search-form {
+                margin-left: 25px;
+            
+            
+                .sökfält {
+                    border: none;
+                    text-decoration: underline;
+                    background-color: #FAF9F8;
+                }
+
+                .sökfält:hover fieldset {
+                    border: none;
+                }
+
+                input:focus, input:hover, 
+                select:focus, select:hover {
+                    outline: none;
+                    border: none;
+                }      
+            }
+        }
+    }
 }
 
-
-}
-
-}
-
-//----------SLUT-NAVHEADER----
+// ----------SLUT-NAVHEADER----

@@ -5,7 +5,7 @@ header {
 header .top-header {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 13px;
 }
 header .top-header .drop-menu li {
   list-style: none;
@@ -95,6 +95,8 @@ header .top-header .nav-list li {
 header .nav-header {
   position: relative;
   padding-bottom: 20px;
+  position: relative;
+  z-index: 1;
 }
 header .nav-header .mega-box {
   position: absolute;
@@ -137,7 +139,7 @@ header .nav-header .nav-list {
   flex-direction: row;
   justify-content: center;
   margin-top: 20px;
-  font-size: 1.1rem;
+  font-size: 16px;
 }
 header .nav-header .nav-list .nav-item {
   margin-left: 30px;
@@ -190,17 +192,17 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   color: black;
   text-decoration: none;
   padding: 5px;
-  font-size: 11px;
+  font-size: 13px;
 }
 .footer .footer-a:hover {
   text-decoration: underline;
 }
 .footer .footer-h2 {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: bold;
 }
 .footer .footerText {
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
 }
 .footer .footer-ikoner {
@@ -233,50 +235,16 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   border: none;
 }
 
-.magazine {
-  background-color: #F4EDDD;
-}
-.magazine .magazine-bilder {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 40px 100px 80px 100px;
-}
-
-.magazine-text {
-  text-align: center;
-  padding-top: 60px;
-}
-.magazine-text .magazine-h2 {
-  font-weight: bold;
-  font-size: 42px;
-}
-.magazine-text .magazine-h3 {
-  font-size: 11px;
-  font-weight: bold;
-}
-.magazine-text .magazine-a {
-  color: #222222;
-  font-weight: bold;
-}
-.magazine-text .magazine-a:hover {
-  color: rgb(125, 120, 120);
-  opacity: 0.8;
-}
-
 .main {
   background-color: #FAF9F8;
   margin: 0;
   padding: 0;
-  background-color: #faf9f8;
 }
 .main p {
   text-align: center;
   font-size: 13px;
 }
-.main .bild1,
-.main .bild2,
-.main .bild3 {
+.main .bild1, .main .bild2, .main .bild3 {
   width: 960px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -286,52 +254,36 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   flex-direction: row;
   justify-content: center;
 }
-.main .bild1 .buy1,
-.main .bild2 .buy1,
-.main .bild3 .buy1 {
+.main .bild1 .buy1, .main .bild2 .buy1, .main .bild3 .buy1 {
   position: absolute;
   display: flex;
   top: 615px;
   background-color: transparent;
   border: none;
-  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 13px;
   font-weight: bold;
 }
-.main .bild1 .buy2,
-.main .bild1 .buy3,
-.main .bild2 .buy2,
-.main .bild2 .buy3,
-.main .bild3 .buy2,
-.main .bild3 .buy3 {
+.main .bild1 .buy2, .main .bild1 .buy3, .main .bild2 .buy2, .main .bild2 .buy3, .main .bild3 .buy2, .main .bild3 .buy3 {
   position: absolute;
   display: flex;
   top: 585px;
   background-color: transparent;
   border: none;
-  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 13px;
   font-weight: bold;
 }
-.main .bild1 a:link,
-.main .bild2 a:link,
-.main .bild3 a:link {
+.main .bild1 a:link, .main .bild2 a:link, .main .bild3 a:link {
   text-decoration: none;
 }
-.main .bild1 a:visited,
-.main .bild2 a:visited,
-.main .bild3 a:visited {
+.main .bild1 a:visited, .main .bild2 a:visited, .main .bild3 a:visited {
   text-decoration: none;
   color: #222222;
 }
-.main .bild1 a:hover,
-.main .bild2 a:hover,
-.main .bild3 a:hover {
+.main .bild1 a:hover, .main .bild2 a:hover, .main .bild3 a:hover {
   text-decoration: none;
   background-color: rgb(237, 237, 237);
 }
 .main .banner {
-  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 960px;
   height: 143px;
   background-color: #F1EBDF;
@@ -399,27 +351,19 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   margin-right: 10px;
   display: none;
 }
+.main .parent .child .runda {
+  color: #222222;
+  text-decoration: none;
+}
 .main .parent .child .rund-bild-text-b {
-  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #707070;
   font-size: 13px;
   font-weight: bold;
   text-align: center;
 }
 .main .parent .child .rund-bild-text-b p {
-  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 13px;
   text-align: center;
-}
-.main .parent .child .rund-bild-text-b a:link {
-  text-decoration: none;
-}
-.main .parent .child .rund-bild-text-b a:visited {
-  text-decoration: none;
-  color: #222222;
-}
-.main .parent .child .rund-bild-text-b a:hover {
-  text-decoration: none;
 }
 .main .parent #leftarrow,
 .main .parent #rightarrow {
@@ -480,4 +424,34 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
         background-color: #FAF9F8;
     }
 
-*//*# sourceMappingURL=style.css.map */
+*/
+.magazine {
+  background-color: #F4EDDD;
+}
+.magazine .magazine-bilder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 100px 80px 100px;
+}
+
+.magazine-text {
+  text-align: center;
+  padding-top: 60px;
+}
+.magazine-text .magazine-h2 {
+  font-weight: bold;
+  font-size: 42px;
+}
+.magazine-text .magazine-h3 {
+  font-size: 11px;
+  font-weight: bold;
+}
+.magazine-text .magazine-a {
+  color: #222222;
+  font-weight: bold;
+}
+.magazine-text .magazine-a:hover {
+  color: rgb(125, 120, 120);
+  opacity: 0.8;
+}/*# sourceMappingURL=style.css.map */
