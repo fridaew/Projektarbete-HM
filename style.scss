@@ -123,6 +123,22 @@
     }
 
     // runda slide
+    .kategorier {
+        width: 960px;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto 0 auto;
+        position: relative;
+        justify-content: space-between;     
+
+        .kategori-h3 {
+            text-align: start;
+            font-size: 20px;
+            color: #222222;
+            font-weight: bold;
+        }
+
+    }
     .parent {
         display: flex;
         justify-content: center;
@@ -184,27 +200,30 @@
 
 // ------------styleboards style ----------------
 .styleboards {
+    width: 960px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    position: relative;
+    justify-content: space-between;
 
     .styleboards-bilder {
-        
         display: flex;
-        flex-direction: row;
-        width: 960px;
-        justify-content: center;
-        margin: 0 auto 0 auto;
-        position: relative;
         justify-content: space-between;
+    }
+    .styleboards-h3{
+        width: 960px;
+        font-size: 20px;
+        color: #222222;
+        font-weight: bold;
+        // margin-left: 100px;
+        text-align: start;
     }
     
 }
 
 
-.styleboards-h3{
-    font-size: 20px;
-    color: #222222;
-    font-weight: bold;
-    margin-left: 100px;
-}
+
 
 /*    .styleboard-bild {
         width: 20%;
