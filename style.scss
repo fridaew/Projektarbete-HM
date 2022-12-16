@@ -1,42 +1,47 @@
 @use"./partails/header";
 @use"./partails/footer";
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Didact Gothic', sans-serif;
     border: none;
-    
+
 }
 
-.magazine{
+.magazine {
     background-color: #F4EDDD;
 
-    .magazine-bilder{
+    .magazine-bilder {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding: 40px 100px 80px 100px;
     }
- 
+
 }
-.magazine-text{
+
+.magazine-text {
 
     text-align: center;
     padding-top: 60px;
-    .magazine-h2{
+
+    .magazine-h2 {
         font-weight: bold;
         font-size: 42px;
     }
-    .magazine-h3{
+
+    .magazine-h3 {
         font-size: 11px;
         font-weight: bold;
     }
-    .magazine-a{
+
+    .magazine-a {
         color: #222222;
         font-weight: bold;
     }
-    .magazine-a:hover{
+
+    .magazine-a:hover {
         color: rgb(125, 120, 120);
         opacity: 0.8;
     }
@@ -47,120 +52,132 @@
 .main {
     background-color: #FAF9F8;
     margin: 0;
-    padding: 0; 
+    padding: 0;
     background-color: #faf9f8;
 
     p {
         text-align: center;
         font-size: 13px;
     }
-        // stora 3 bilderna
-        .bild1, .bild2, .bild3 {
-            width: 960px;
-            padding-top: 24px;
-            padding-bottom: 24px;
-            margin: 0 auto 0 auto;
-            position: relative;
+
+    // stora 3 bilderna
+    .bild1,
+    .bild2,
+    .bild3 {
+        width: 960px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin: 0 auto 0 auto;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+        .buy1 {
+            position: absolute;
+            display: flex;
+            // z-index: 2;
+            top: 615px;
+            background-color: transparent;
+            border: none;
+            font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+
+        }
+
+        .buy2,
+        .buy3 {
+            position: absolute;
+            display: flex;
+            // z-index: 2;
+            top: 585px;
+            background-color: transparent;
+            border: none;
+            font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: #222222;
+        }
+
+        a:hover {
+            text-decoration: none;
+            background-color: rgb(237, 237, 237);
+
+        }
+    }
+
+    // gula bannern
+    .banner {
+        font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 960px;
+        height: 143px;
+        background-color: #F1EBDF;
+        padding-bottom: 50px;
+        margin: 0 auto 50px auto;
+
+        h3 {
+
+            color: #E50010;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            padding: 22px 60px 0px;
+        }
+
+        p {
+            color: #222222;
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .b-banner {
             display: flex;
             flex-direction: row;
             justify-content: center;
-                    
+            margin-right: 45px;
 
-            .buy1 {
-                position: absolute;
+            .links {
+                display: block;
+                border: 1px solid #222222;
+                margin: 0px 6px 0px 6px;
+
+            }
+
+            .b-link {
                 display: flex;
-                // z-index: 2;
-                top: 615px;
-                background-color: transparent;
-                border: none;
-                font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: #222222;
                 font-size: 13px;
                 font-weight: bold;
-               
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-top: 2px;
+                padding-bottom: 2px;
             }
-            .buy2, .buy3 {
-                position: absolute;
-                display: flex;
-                // z-index: 2;
-                top: 585px;
-                background-color: transparent;
-                border: none;
-                font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                font-size: 13px;
-                font-weight: bold;
-            }
-            a:link { 
+
+            a:link {
                 text-decoration: none;
             }
-            a:visited { 
-                text-decoration: none; 
-                color: #222222;
-            }
-            a:hover { 
-                text-decoration: none; 
-                background-color: rgb(237, 237, 237);
-               
-            }
-        }
-        // gula bannern
-        .banner {
-            font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            width: 960px;
-            height: 143px;
-            background-color: #F1EBDF;
-            padding-bottom: 50px;
-            margin: 0 auto 50px auto;
 
-            h3 {
-                
-                color: #E50010;
-                font-size: 28px;
-                font-weight: bold;
-                text-align: center;
-                padding: 22px 60px 0px;
+            a:visited {
+                text-decoration: none;
             }
 
-            p {
-                color: #222222;
-                font-size: 11px;
-                text-align: center;
-            }
-
-            .b-banner {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                margin-right: 45px;    
-               
-                .links {
-                    display: block;
-                    border: 1px solid #222222;
-                    margin: 0px 6px 0px 6px;
-                    
-                }
-
-                .b-link {
-                    display: flex;
-                    color: #222222;
-                    font-size: 13px;
-                    font-weight: bold;
-                    padding-left: 6px;
-                    padding-right: 6px;
-                    padding-top: 2px;
-                    padding-bottom: 2px;
-                }
-
-                a:link { 
-                    text-decoration: none;
-                }
-                a:visited { 
-                    text-decoration: none; 
-                }
-                a:hover { 
-                    text-decoration: underline; 
-                }
+            a:hover {
+                text-decoration: underline;
             }
         }
+    }
+
     // runda slide
     .parent {
         display: flex;
@@ -174,67 +191,109 @@
         margin: 0 auto 0 auto;
         position: relative;
         flex-direction: row;
-        
-            
-        .child{
+
+
+        .child {
             width: 20%;
             margin-left: 10px;
             margin-right: 10px;
             display: none;
-        
+
             .rund-bild-text-b {
                 font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 color: #707070;
                 font-size: 13px;
                 font-weight: bold;
-                text-align: center;     
-                
+                text-align: center;
+
                 p {
                     font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                     font-size: 13px;
                     text-align: center;
                 }
-                    a:link { 
-                        text-decoration: none;
-                    }
-                    a:visited { 
-                        text-decoration: none; 
-                        color: #222222;
-                    }
-                    a:hover { 
-                        text-decoration: none;           
-                    } 
+
+                a:link {
+                    text-decoration: none;
+                }
+
+                a:visited {
+                    text-decoration: none;
+                    color: #222222;
+                }
+
+                a:hover {
+                    text-decoration: none;
+                }
             }
         }
-         
-        #leftarrow, #rightarrow {
+
+        #leftarrow,
+        #rightarrow {
             margin-left: 12px;
             width: 10%;
             display: inline-block;
         }
-    
-        #leftarrow button, #rightarrow button {
+
+        #leftarrow button,
+        #rightarrow button {
             cursor: pointer;
-              
+
         }
-        .arrow-button{
+
+        .arrow-button {
             border: none;
             background-color: #FAF9F8;
-        }        
+        }
     }
 }
 
 // ------------styleboards style ----------------
-.styleboards{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* height: 400px; */
-        background-color: #FAF9F8;
-        width: 960px;
-        padding-top: 24px;
-        padding-bottom: 24px;
-      
+.styleboards {
+
+    .styleboards-bilder {
+        
+       display: flex;
         flex-direction: row;
+        padding-left:  100px;
+        justify-content: space-between;
+    }
 
 }
+.styleboard-bild{
+    padding: 10px;
+}
+
+.styleboards-h3{
+    font-size: 20px;
+    color: #222222;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+/*    .styleboard-bild {
+        width: 20%;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: none;
+        
+    }
+
+    #leftarrow,
+    #rightarrow {
+        margin-left: 12px;
+        width: 10%;
+        display: inline-block;
+    }
+
+    #leftarrow button,
+    #rightarrow button {
+        cursor: pointer;
+
+    }
+
+    .arrow-button {
+        border: none;
+        background-color: #FAF9F8;
+    }
+
+*/

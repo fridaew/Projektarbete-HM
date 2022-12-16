@@ -274,7 +274,9 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   text-align: center;
   font-size: 13px;
 }
-.main .bild1, .main .bild2, .main .bild3 {
+.main .bild1,
+.main .bild2,
+.main .bild3 {
   width: 960px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -284,7 +286,9 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   flex-direction: row;
   justify-content: center;
 }
-.main .bild1 .buy1, .main .bild2 .buy1, .main .bild3 .buy1 {
+.main .bild1 .buy1,
+.main .bild2 .buy1,
+.main .bild3 .buy1 {
   position: absolute;
   display: flex;
   top: 615px;
@@ -294,7 +298,12 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   font-size: 13px;
   font-weight: bold;
 }
-.main .bild1 .buy2, .main .bild1 .buy3, .main .bild2 .buy2, .main .bild2 .buy3, .main .bild3 .buy2, .main .bild3 .buy3 {
+.main .bild1 .buy2,
+.main .bild1 .buy3,
+.main .bild2 .buy2,
+.main .bild2 .buy3,
+.main .bild3 .buy2,
+.main .bild3 .buy3 {
   position: absolute;
   display: flex;
   top: 585px;
@@ -304,14 +313,20 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   font-size: 13px;
   font-weight: bold;
 }
-.main .bild1 a:link, .main .bild2 a:link, .main .bild3 a:link {
+.main .bild1 a:link,
+.main .bild2 a:link,
+.main .bild3 a:link {
   text-decoration: none;
 }
-.main .bild1 a:visited, .main .bild2 a:visited, .main .bild3 a:visited {
+.main .bild1 a:visited,
+.main .bild2 a:visited,
+.main .bild3 a:visited {
   text-decoration: none;
   color: #222222;
 }
-.main .bild1 a:hover, .main .bild2 a:hover, .main .bild3 a:hover {
+.main .bild1 a:hover,
+.main .bild2 a:hover,
+.main .bild3 a:hover {
   text-decoration: none;
   background-color: rgb(237, 237, 237);
 }
@@ -406,12 +421,14 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 .main .parent .child .rund-bild-text-b a:hover {
   text-decoration: none;
 }
-.main .parent #leftarrow, .main .parent #rightarrow {
+.main .parent #leftarrow,
+.main .parent #rightarrow {
   margin-left: 12px;
   width: 10%;
   display: inline-block;
 }
-.main .parent #leftarrow button, .main .parent #rightarrow button {
+.main .parent #leftarrow button,
+.main .parent #rightarrow button {
   cursor: pointer;
 }
 .main .parent .arrow-button {
@@ -419,14 +436,48 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   background-color: #FAF9F8;
 }
 
-.styleboards {
+.styleboards .styleboards-bilder {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  /* height: 400px; */
-  background-color: #FAF9F8;
-  width: 960px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   flex-direction: row;
-}/*# sourceMappingURL=style.css.map */
+  padding-left: 100px;
+  justify-content: space-between;
+}
+
+.styleboard-bild {
+  padding: 10px;
+}
+
+.styleboards-h3 {
+  font-size: 20px;
+  color: #222222;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+/*    .styleboard-bild {
+        width: 20%;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: none;
+
+    }
+
+    #leftarrow,
+    #rightarrow {
+        margin-left: 12px;
+        width: 10%;
+        display: inline-block;
+    }
+
+    #leftarrow button,
+    #rightarrow button {
+        cursor: pointer;
+
+    }
+
+    .arrow-button {
+        border: none;
+        background-color: #FAF9F8;
+    }
+
+*//*# sourceMappingURL=style.css.map */
