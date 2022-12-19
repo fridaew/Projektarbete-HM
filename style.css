@@ -203,6 +203,9 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 }
 .footer .footerText {
   font-size: 13px;
+}
+.footer .footerText1 {
+  font-size: 13px;
   text-align: center;
 }
 .footer .footer-ikoner {
