@@ -12,13 +12,6 @@ main
 
     background-color:#FAF9F8 ;
 
-
-
-    .main {
-        display: flex;
-        flex-direction: row;
-    }
-
     .dam-länk-top{
         background-color: #FAF9F8;
         text-align: center;
@@ -38,8 +31,14 @@ main
             font-size: 12.008px;
         }
     
+     }
+
+   .main {
+        display: flex;
+        flex-direction: row;
+
         
-    }
+    
    
 .page-sidebar {
 
@@ -83,7 +82,7 @@ main
 
     .buy1 {
         position: absolute;
-        display: flex;
+        // display: flex;
         // z-index: 2;
         top: 460px;
         right: 513px;
@@ -95,7 +94,7 @@ main
     }
     .buy1a {
         position: absolute;
-        display: flex;
+        // display: flex;
         // z-index: 2;
         top: 460px;
         right: 388px;
@@ -107,7 +106,7 @@ main
     }
     .buy2 {
         position: absolute;
-        display: flex;
+        // display: flex;
         // z-index: 2;
         top: 460px;
         background-color: transparent;
@@ -127,7 +126,7 @@ main
 
     .buy3 {
         position: absolute;
-        display: flex;
+        // display: flex;
         // z-index: 2;
         top: 458px;
         background-color: transparent;
@@ -149,6 +148,8 @@ main
         background-color: rgb(237, 237, 237);
     }
 }
+    }
+
 }
 
 // <!-- innehåll main slut  -->
