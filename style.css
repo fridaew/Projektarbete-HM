@@ -104,8 +104,12 @@ header .nav-header .mega-box {
   width: 100%;
   left: 0;
   visibility: hidden;
-  font-size: 15px;
+  font-size: 13px;
   background-color: #FAF9F8;
+}
+header .nav-header .mega-box h3 {
+  font-size: 13px;
+  font-weight: bold;
 }
 header .nav-header .mega-box .content {
   display: flex;

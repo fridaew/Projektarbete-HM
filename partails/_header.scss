@@ -142,8 +142,14 @@ header {
             width: 100%;
             left: 0;
             visibility: hidden;
-            font-size: 15px;
+            font-size: 13px;
             background-color:#FAF9F8;
+
+            h3 {
+                font-size: 13px;
+                font-weight: bold;
+            }
+            
         }
 
         .mega-box .content {
