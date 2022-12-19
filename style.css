@@ -353,6 +353,20 @@ main .bild1 a:hover, main .bild2 a:hover, main .bild3 a:hover {
   display: none;
 }
 
+.Read-more-button {
+  text-align: center;
+}
+.Read-more-button h1 {
+  font-size: 40px;
+}
+.Read-more-button #myBtn {
+  background-color: #FAF9F8;
+  font-size: 13px;
+}
+.Read-more-button #myBtn:hover {
+  text-decoration: underline;
+}
+
 * {
   margin: 0;
   padding: 0;

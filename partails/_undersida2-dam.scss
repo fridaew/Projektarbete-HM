@@ -41,12 +41,6 @@ main
         
     }
    
-
-  
-
-  
-   
-
 .page-sidebar {
 
     display: flex;
@@ -157,12 +151,25 @@ main
 }
 }
 
-
-
-
-
-
-
 // <!-- innehåll main slut  -->
 
+// read-More
 #more {display: none;}
+
+.Read-more-button{
+    text-align: center;
+
+    h1{
+        font-size: 40px;
+    }
+    #myBtn{
+        background-color: #FAF9F8;
+        font-size: 13px;
+    }
+    #myBtn:hover{
+        text-decoration: underline;
+    }
+}
+
+// read-More slut
+
