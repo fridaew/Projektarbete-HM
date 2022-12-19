@@ -251,7 +251,9 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   text-align: center;
   font-size: 13px;
 }
-.main .bild1, .main .bild2, .main .bild3 {
+.main .bild1,
+.main .bild2,
+.main .bild3 {
   width: 960px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -261,7 +263,9 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   flex-direction: row;
   justify-content: center;
 }
-.main .bild1 .buy1, .main .bild2 .buy1, .main .bild3 .buy1 {
+.main .bild1 .buy1,
+.main .bild2 .buy1,
+.main .bild3 .buy1 {
   position: absolute;
   display: flex;
   top: 615px;
@@ -270,7 +274,12 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   font-size: 13px;
   font-weight: bold;
 }
-.main .bild1 .buy2, .main .bild1 .buy3, .main .bild2 .buy2, .main .bild2 .buy3, .main .bild3 .buy2, .main .bild3 .buy3 {
+.main .bild1 .buy2,
+.main .bild1 .buy3,
+.main .bild2 .buy2,
+.main .bild2 .buy3,
+.main .bild3 .buy2,
+.main .bild3 .buy3 {
   position: absolute;
   display: flex;
   top: 585px;
@@ -279,14 +288,20 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   font-size: 13px;
   font-weight: bold;
 }
-.main .bild1 a:link, .main .bild2 a:link, .main .bild3 a:link {
+.main .bild1 a:link,
+.main .bild2 a:link,
+.main .bild3 a:link {
   text-decoration: none;
 }
-.main .bild1 a:visited, .main .bild2 a:visited, .main .bild3 a:visited {
+.main .bild1 a:visited,
+.main .bild2 a:visited,
+.main .bild3 a:visited {
   text-decoration: none;
   color: #222222;
 }
-.main .bild1 a:hover, .main .bild2 a:hover, .main .bild3 a:hover {
+.main .bild1 a:hover,
+.main .bild2 a:hover,
+.main .bild3 a:hover {
   text-decoration: none;
   background-color: rgb(237, 237, 237);
 }
@@ -399,6 +414,25 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 .main .parent .arrow-button {
   border: none;
   background-color: #FAF9F8;
+}
+
+.stilinspiration .stilinspiration-bilder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 5px 60px 30px 100px;
+}
+.stilinspiration .stilingspan {
+  font-size: 13px;
+  color: #222222;
+}
+.stilinspiration .stiling-h3 {
+  color: #222222;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 100px;
+  padding-bottom: 2px;
 }
 
 .styleboards {

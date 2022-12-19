@@ -14,14 +14,17 @@
 .main {
     background-color: #FAF9F8;
     margin: 0;
-    padding: 0; 
-    
+    padding: 0;
+
     p {
         text-align: center;
         font-size: 13px;
     }
-        // stora 3 bilderna
-    .bild1, .bild2, .bild3 {
+
+    // stora 3 bilderna
+    .bild1,
+    .bild2,
+    .bild3 {
         width: 960px;
         padding-top: 24px;
         padding-bottom: 24px;
@@ -29,7 +32,7 @@
         position: relative;
         display: flex;
         flex-direction: row;
-        justify-content: center;                    
+        justify-content: center;
 
         .buy1 {
             position: absolute;
@@ -40,9 +43,11 @@
             border: none;
             font-size: 13px;
             font-weight: bold;
-               
+
         }
-        .buy2, .buy3 {
+
+        .buy2,
+        .buy3 {
             position: absolute;
             display: flex;
             // z-index: 2;
@@ -52,20 +57,23 @@
             font-size: 13px;
             font-weight: bold;
         }
-            
-        a:link { 
+
+        a:link {
             text-decoration: none;
         }
-        a:visited { 
-            text-decoration: none; 
+
+        a:visited {
+            text-decoration: none;
             color: #222222;
         }
-        a:hover { 
-            text-decoration: none; 
+
+        a:hover {
+            text-decoration: none;
             background-color: rgb(237, 237, 237);
         }
     }
-     // gula bannern
+
+    // gula bannern
     .banner {
         width: 960px;
         height: 143px;
@@ -75,7 +83,7 @@
 
         h3 {
             color: #E50010;
-             font-size: 28px;
+            font-size: 28px;
             font-weight: bold;
             text-align: center;
             padding: 22px 60px 0px;
@@ -91,13 +99,13 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            margin-right: 45px;    
-               
+            margin-right: 45px;
+
             .links {
                 display: block;
                 border: 1px solid #222222;
-                 margin: 0px 6px 0px 6px;
-                    
+                margin: 0px 6px 0px 6px;
+
             }
 
             .b-link {
@@ -111,14 +119,16 @@
                 padding-bottom: 2px;
             }
 
-            a:link { 
+            a:link {
                 text-decoration: none;
             }
-            a:visited { 
-                text-decoration: none; 
+
+            a:visited {
+                text-decoration: none;
             }
-            a:hover { 
-                text-decoration: underline; 
+
+            a:hover {
+                text-decoration: underline;
             }
         }
     }
@@ -130,7 +140,7 @@
         justify-content: center;
         margin: 0 auto 0 auto;
         position: relative;
-        justify-content: space-between;     
+        justify-content: space-between;
 
         .kategori-h3 {
             text-align: start;
@@ -140,6 +150,7 @@
         }
 
     }
+
     .parent {
         display: flex;
         justify-content: center;
@@ -152,8 +163,8 @@
         margin: 0 auto 0 auto;
         position: relative;
         flex-direction: row;
-           
-        .child{
+
+        .child {
             width: 20%;
             margin-left: 10px;
             margin-right: 10px;
@@ -164,7 +175,7 @@
                 color: #222222;
                 text-decoration: none;
             }
-        
+
             .rund-bild-text-b {
                 color: #707070;
                 font-size: 13px;
@@ -173,9 +184,9 @@
 
                 p {
                     font-size: 13px;
-                    text-align: center;                   
+                    text-align: center;
                 }
-                    
+
             }
         }
 
@@ -199,6 +210,34 @@
     }
 }
 
+// ------------stilinspiration style ----------------
+
+.stilinspiration {
+
+    .stilinspiration-bilder {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 5px 60px 30px 100px;
+    }
+
+    .stilingspan {
+        font-size: 13px;
+        color: #222222;
+    }
+
+    .stiling-h3 {
+        color: #222222;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 100px;
+        padding-bottom: 2px;
+    }
+
+}
+// ------------stilinspiration style slut ----------------
+
 // ------------styleboards style ----------------
 .styleboards {
     width: 960px;
@@ -212,7 +251,8 @@
         display: flex;
         justify-content: space-between;
     }
-    .styleboards-h3{
+
+    .styleboards-h3 {
         width: 960px;
         font-size: 20px;
         color: #222222;
@@ -221,6 +261,7 @@
         text-align: start;
     }
     
+
 }
 
 
@@ -253,6 +294,7 @@
     }
 
 */
+
 .magazine {
     background-color: #F4EDDD;
 
@@ -272,15 +314,18 @@
         font-weight: bold;
         font-size: 42px;
     }
+
     .magazine-h3 {
         font-size: 11px;
         font-weight: bold;
     }
-    .magazine-a{
+
+    .magazine-a {
         color: #222222;
         font-weight: bold;
     }
-    .magazine-a:hover{
+
+    .magazine-a:hover {
         color: rgb(125, 120, 120);
         opacity: 0.8;
     }
