@@ -5,31 +5,42 @@
     border: none;
 }
 // <!-- sidoMeny start -->
-// #main {
-//     display: flex;
-//     flex-direction: row;
 
 
-.dam-länk-top{
+main 
+ {
+
+    background-color:#FAF9F8 ;
+
+
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .dam-länk-top{
+        background-color: #FAF9F8;
+        text-align: center;
+        margin: 16px;
+        margin-top: 0;
+        a{
+            text-decoration: none;
+            color:black;
+            font-size: 12.008px;
+        }
     
-    text-align: center;
-    margin: 16px;
-    a{
-        text-decoration: none;
-        color:black;
-        font-size: 12.008px;
-    }
-
-    a:hover{
-        color: red;
-    }
-
-    span {
-        font-size: 12.008px;
-    }
-
+        a:hover{
+            color: red;
+        }
     
-}
+        span {
+            font-size: 12.008px;
+        }
+    
+        
+    }
+   
 .page-sidebar {
 
     display: flex;
@@ -143,12 +154,27 @@
         background-color: rgb(237, 237, 237);
     }
 }
-// }
-
-
-
-
-
-
+}
 
 // <!-- innehåll main slut  -->
+
+// read-More
+#more {display: none;}
+
+.Read-more-button{
+    text-align: center;
+
+    h1{
+        font-size: 40px;
+    }
+    #myBtn{
+        background-color: #FAF9F8;
+        font-size: 13px;
+    }
+    #myBtn:hover{
+        text-decoration: underline;
+    }
+}
+
+// read-More slut
+
