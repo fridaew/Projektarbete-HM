@@ -6,7 +6,26 @@
 }
 
 // <!-- sidoMeny start -->
+.dam-länk-top{
+    
+    text-align: center;
+    margin: 16px;
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 12.008px;
+    }
 
+    a:hover{
+        color: red;
+    }
+
+    span {
+        font-size: 12.008px;
+    }
+
+    
+}
 .page-sidebar {
 
     display: flex;

@@ -235,6 +235,22 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   border: none;
 }
 
+.dam-länk-top {
+  text-align: center;
+  margin: 16px;
+}
+.dam-länk-top a {
+  text-decoration: none;
+  color: black;
+  font-size: 12.008px;
+}
+.dam-länk-top a:hover {
+  color: red;
+}
+.dam-länk-top span {
+  font-size: 12.008px;
+}
+
 .page-sidebar {
   display: flex;
   flex-direction: column;
