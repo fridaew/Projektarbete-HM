@@ -235,6 +235,28 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   border: none;
 }
 
+.page-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+.page-sidebar .list-group-tilte {
+  margin-left: 32px;
+  font-size: 16px;
+}
+.page-sidebar li {
+  list-style: none;
+}
+.page-sidebar a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 13px;
+}
+.page-sidebar a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
 * {
   margin: 0;
   padding: 0;
