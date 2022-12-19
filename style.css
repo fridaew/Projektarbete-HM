@@ -320,6 +320,10 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   text-decoration: none;
   background-color: rgb(175, 175, 175);
 }
+.bild1 .buy2 a:hover, .bild2 .buy2 a:hover, .bild3 .buy2 a:hover {
+  text-decoration: underline;
+  background-color: rgb(175, 175, 175);
+}
 .bild1 .buy3, .bild2 .buy3, .bild3 .buy3 {
   position: absolute;
   display: flex;
