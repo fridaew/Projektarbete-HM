@@ -274,7 +274,74 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 }
 
 #more {
-  display: none;
+  display: none;}
+.bild1, .bild2, .bild3 {
+  width: 960px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bild1 .buy1, .bild2 .buy1, .bild3 .buy1 {
+  position: absolute;
+  display: flex;
+  top: 460px;
+  right: 513px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+.bild1 .buy1a, .bild2 .buy1a, .bild3 .buy1a {
+  position: absolute;
+  display: flex;
+  top: 460px;
+  right: 388px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+.bild1 .buy2, .bild2 .buy2, .bild3 .buy2 {
+  position: absolute;
+  display: flex;
+  top: 460px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+.bild1 .buy2 a:link, .bild2 .buy2 a:link, .bild3 .buy2 a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.bild1 .buy2 a:hover, .bild2 .buy2 a:hover, .bild3 .buy2 a:hover {
+  text-decoration: none;
+  background-color: rgb(175, 175, 175);
+}
+.bild1 .buy3, .bild2 .buy3, .bild3 .buy3 {
+  position: absolute;
+  display: flex;
+  top: 458px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+.bild1 a:link, .bild2 a:link, .bild3 a:link {
+  text-decoration: none;
+  color: #222222;
+}
+.bild1 a:visited, .bild2 a:visited, .bild3 a:visited {
+  text-decoration: none;
+  color: #222222;
+}
+.bild1 a:hover, .bild2 a:hover, .bild3 a:hover {
+  text-decoration: none;
+  background-color: rgb(237, 237, 237);
 }
 
 * {
