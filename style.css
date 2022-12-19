@@ -280,7 +280,11 @@ main .page-sidebar a:hover {
   text-decoration: underline;
   color: red;
 }
-main .bild1, main .bild2, main .bild3 {
+main section {
+  margin: 0;
+  padding: 0;
+}
+main section .bild1, main section .bild2, main section .bild3 {
   width: 960px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -290,17 +294,17 @@ main .bild1, main .bild2, main .bild3 {
   flex-direction: row;
   justify-content: center;
 }
-main .bild1 .buy1, main .bild2 .buy1, main .bild3 .buy1 {
+main section .bild1 .buy1, main section .bild2 .buy1, main section .bild3 .buy1 {
   position: absolute;
   display: flex;
-  top: 460px;
-  right: 513px;
+  top: 200px;
+  right: 560px;
   background-color: transparent;
   border: none;
   font-size: 13px;
   font-weight: bold;
 }
-main .bild1 .buy1a, main .bild2 .buy1a, main .bild3 .buy1a {
+main section .bild1 .buy1a, main section .bild2 .buy1a, main section .bild3 .buy1a {
   position: absolute;
   display: flex;
   top: 460px;
@@ -310,60 +314,62 @@ main .bild1 .buy1a, main .bild2 .buy1a, main .bild3 .buy1a {
   font-size: 13px;
   font-weight: bold;
 }
-main .bild1 .buy2, main .bild2 .buy2, main .bild3 .buy2 {
+main section .bild1 .buy2, main section .bild2 .buy2, main section .bild3 .buy2 {
   position: absolute;
   display: flex;
-  top: 460px;
+  top: 400px;
   background-color: transparent;
   border: none;
   font-size: 13px;
   font-weight: bold;
 }
-main .bild1 .buy2 a:link, main .bild2 .buy2 a:link, main .bild3 .buy2 a:link {
+main section .bild1 .buy2 a:link, main section .bild2 .buy2 a:link, main section .bild3 .buy2 a:link {
   text-decoration: none;
   color: #FFFFFF;
 }
-main .bild1 .buy2 a:hover, main .bild2 .buy2 a:hover, main .bild3 .buy2 a:hover {
+main section .bild1 .buy2 a:hover, main section .bild2 .buy2 a:hover, main section .bild3 .buy2 a:hover {
   text-decoration: none;
   background-color: rgb(175, 175, 175);
 }
-main .bild1 .buy3, main .bild2 .buy3, main .bild3 .buy3 {
+main section .bild1 .buy2 a:hover, main section .bild2 .buy2 a:hover, main section .bild3 .buy2 a:hover {
+  text-decoration: underline;
+  background-color: rgb(175, 175, 175);
+}
+main section .bild1 .buy3, main section .bild2 .buy3, main section .bild3 .buy3 {
   position: absolute;
   display: flex;
-  top: 458px;
+  top: 300px;
   background-color: transparent;
   border: none;
   font-size: 13px;
   font-weight: bold;
 }
-main .bild1 a:link, main .bild2 a:link, main .bild3 a:link {
+main section .bild1 a:link, main section .bild2 a:link, main section .bild3 a:link {
   text-decoration: none;
   color: #222222;
 }
-main .bild1 a:visited, main .bild2 a:visited, main .bild3 a:visited {
+main section .bild1 a:visited, main section .bild2 a:visited, main section .bild3 a:visited {
   text-decoration: none;
   color: #222222;
 }
-main .bild1 a:hover, main .bild2 a:hover, main .bild3 a:hover {
+main section .bild1 a:hover, main section .bild2 a:hover, main section .bild3 a:hover {
   text-decoration: none;
   background-color: rgb(237, 237, 237);
 }
-
-#more {
+main section #more {
   display: none;
 }
-
-.Read-more-button {
+main section .Read-more-button {
   text-align: center;
 }
-.Read-more-button h1 {
+main section .Read-more-button h1 {
   font-size: 40px;
 }
-.Read-more-button #myBtn {
+main section .Read-more-button #myBtn {
   background-color: #FAF9F8;
   font-size: 13px;
 }
-.Read-more-button #myBtn:hover {
+main section .Read-more-button #myBtn:hover {
   text-decoration: underline;
 }
 
