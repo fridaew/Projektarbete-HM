@@ -273,6 +273,10 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   color: red;
 }
 
+#more {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
