@@ -441,8 +441,8 @@ main .main section .bild1, main .main section .bild2, main .main section .bild3,
 main .main section .bild1 .buy1, main .main section .bild2 .buy1, main .main section .bild3 .buy1, main .main section .bild4 .buy1 {
   position: absolute;
   display: flex;
-  top: 200px;
-  right: 100px;
+  top: 458px;
+  right: 430px;
   background-color: transparent;
   border: none;
   font-size: 13px;
@@ -451,37 +451,36 @@ main .main section .bild1 .buy1, main .main section .bild2 .buy1, main .main sec
 main .main section .bild1 .buy2, main .main section .bild2 .buy2, main .main section .bild3 .buy2, main .main section .bild4 .buy2 {
   position: absolute;
   display: flex;
-  top: 400px;
+  top: 460px;
   background-color: transparent;
   border: none;
   font-size: 13px;
   font-weight: bold;
-}
-main .main section .bild1 .buy2 a:link, main .main section .bild2 .buy2 a:link, main .main section .bild3 .buy2 a:link, main .main section .bild4 .buy2 a:link {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-main .main section .bild1 .buy2 a:hover, main .main section .bild2 .buy2 a:hover, main .main section .bild3 .buy2 a:hover, main .main section .bild4 .buy2 a:hover {
-  text-decoration: none;
-  background-color: rgb(175, 175, 175);
-}
-main .main section .bild1 .buy2 a:hover, main .main section .bild2 .buy2 a:hover, main .main section .bild3 .buy2 a:hover, main .main section .bild4 .buy2 a:hover {
-  text-decoration: underline;
-  background-color: rgb(175, 175, 175);
 }
 main .main section .bild1 .buy3, main .main section .bild2 .buy3, main .main section .bild3 .buy3, main .main section .bild4 .buy3 {
   position: absolute;
   display: flex;
-  top: 300px;
+  top: 458px;
   background-color: transparent;
   border: none;
   font-size: 13px;
   font-weight: bold;
 }
+main .main section .bild1 .buy3 a:link, main .main section .bild2 .buy3 a:link, main .main section .bild3 .buy3 a:link, main .main section .bild4 .buy3 a:link {
+  text-decoration: none;
+}
+main .main section .bild1 .buy3 a:visited, main .main section .bild2 .buy3 a:visited, main .main section .bild3 .buy3 a:visited, main .main section .bild4 .buy3 a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+main .main section .bild1 .buy3 a:hover, main .main section .bild2 .buy3 a:hover, main .main section .bild3 .buy3 a:hover, main .main section .bild4 .buy3 a:hover {
+  text-decoration: underline;
+  background-color: rgb(68, 67, 67);
+}
 main .main section .bild1 .buy4, main .main section .bild2 .buy4, main .main section .bild3 .buy4, main .main section .bild4 .buy4 {
   position: absolute;
   display: flex;
-  top: 300px;
+  top: 458px;
   background-color: transparent;
   border: none;
   font-size: 13px;
@@ -534,10 +533,10 @@ main .main section .banner .b-banner .b-link {
   color: #222222;
   font-size: 13px;
   font-weight: bold;
-  padding-left: 6px;
-  padding-right: 6px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 main .main section .banner .b-banner a:link {
   text-decoration: none;
