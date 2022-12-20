@@ -203,6 +203,14 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
 }
 .footer .footerText {
   font-size: 13px;
+  color: #222222;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .footerText1 {
+  font-size: 13px;
   text-align: center;
 }
 .footer .footer-ikoner {
@@ -233,6 +241,327 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   padding: 0;
   font-family: "Didact Gothic", sans-serif;
   border: none;
+}
+
+main {
+  background-color: #FAF9F8;
+}
+main .dam-länk-top {
+  background-color: #FAF9F8;
+  text-align: center;
+  margin: 16px;
+  margin-top: 0;
+}
+main .dam-länk-top a {
+  text-decoration: none;
+  color: black;
+  font-size: 12.008px;
+}
+main .dam-länk-top a:hover {
+  color: red;
+}
+main .dam-länk-top span {
+  font-size: 12.008px;
+}
+main .main {
+  display: flex;
+  flex-direction: row;
+}
+main .main .page-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+main .main .page-sidebar .list-group-tilte {
+  margin-left: 32px;
+  font-size: 16px;
+}
+main .main .page-sidebar li {
+  list-style: none;
+}
+main .main .page-sidebar a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 13px;
+}
+main .main .page-sidebar a:hover {
+  text-decoration: underline;
+  color: red;
+}
+main .main .bild1, main .main .bild2, main .main .bild3 {
+  width: 960px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main .main .bild1 .buy1, main .main .bild2 .buy1, main .main .bild3 .buy1 {
+  position: absolute;
+  top: 460px;
+  right: 513px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+main .main .bild1 .buy1a, main .main .bild2 .buy1a, main .main .bild3 .buy1a {
+  position: absolute;
+  top: 460px;
+  right: 388px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+main .main .bild1 .buy2, main .main .bild2 .buy2, main .main .bild3 .buy2 {
+  position: absolute;
+  top: 460px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+main .main .bild1 .buy2 a:link, main .main .bild2 .buy2 a:link, main .main .bild3 .buy2 a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+main .main .bild1 .buy2 a:hover, main .main .bild2 .buy2 a:hover, main .main .bild3 .buy2 a:hover {
+  text-decoration: none;
+  background-color: rgb(175, 175, 175);
+}
+main .main .bild1 .buy3, main .main .bild2 .buy3, main .main .bild3 .buy3 {
+  position: absolute;
+  top: 458px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+main .main .bild1 a:link, main .main .bild2 a:link, main .main .bild3 a:link {
+  text-decoration: none;
+  color: #222222;
+}
+main .main .bild1 a:visited, main .main .bild2 a:visited, main .main .bild3 a:visited {
+  text-decoration: none;
+  color: #222222;
+}
+main .main .bild1 a:hover, main .main .bild2 a:hover, main .main .bild3 a:hover {
+  text-decoration: none;
+  background-color: rgb(237, 237, 237);
+}
+
+#more {
+  display: none;
+}
+
+.Read-more-button {
+  text-align: center;
+}
+.Read-more-button h1 {
+  font-size: 40px;
+}
+.Read-more-button #myBtn {
+  background-color: #FAF9F8;
+  font-size: 13px;
+}
+.Read-more-button #myBtn:hover {
+  text-decoration: underline;
+}
+
+git * {
+  margin: 0;
+  padding: 0;
+  font-family: "Didact Gothic", sans-serif;
+  border: none;
+}
+
+main {
+  background-color: #FAF9F8;
+  padding-bottom: 100px;
+}
+main .dam-länk-top {
+  background-color: #FAF9F8;
+  text-align: center;
+  margin: 16px;
+  margin-top: 0;
+}
+main .dam-länk-top a {
+  text-decoration: none;
+  color: black;
+  font-size: 12.008px;
+}
+main .dam-länk-top a:hover {
+  color: red;
+}
+main .dam-länk-top span {
+  font-size: 12.008px;
+}
+main .main {
+  display: flex;
+  flex-direction: row;
+}
+main .main .page-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+main .main .page-sidebar .list-group-tilte {
+  margin-left: 32px;
+  font-size: 16px;
+}
+main .main .page-sidebar li {
+  list-style: none;
+}
+main .main .page-sidebar a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 13px;
+}
+main .main .page-sidebar a:hover {
+  text-decoration: underline;
+  color: red;
+}
+main .main section {
+  margin: 0;
+  padding: 0;
+}
+main .main section .bild1, main .main section .bild2, main .main section .bild3, main .main section .bild4 {
+  width: 960px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main .main section .bild1 .buy1, main .main section .bild2 .buy1, main .main section .bild3 .buy1, main .main section .bild4 .buy1 {
+  position: absolute;
+  display: flex;
+  top: 458px;
+  right: 430px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+main .main section .bild1 .buy2, main .main section .bild2 .buy2, main .main section .bild3 .buy2, main .main section .bild4 .buy2 {
+  position: absolute;
+  display: flex;
+  top: 460px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+main .main section .bild1 .buy3, main .main section .bild2 .buy3, main .main section .bild3 .buy3, main .main section .bild4 .buy3 {
+  position: absolute;
+  display: flex;
+  top: 458px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+main .main section .bild1 .buy3 a:link, main .main section .bild2 .buy3 a:link, main .main section .bild3 .buy3 a:link, main .main section .bild4 .buy3 a:link {
+  text-decoration: none;
+}
+main .main section .bild1 .buy3 a:visited, main .main section .bild2 .buy3 a:visited, main .main section .bild3 .buy3 a:visited, main .main section .bild4 .buy3 a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+main .main section .bild1 .buy3 a:hover, main .main section .bild2 .buy3 a:hover, main .main section .bild3 .buy3 a:hover, main .main section .bild4 .buy3 a:hover {
+  text-decoration: underline;
+  background-color: rgb(68, 67, 67);
+}
+main .main section .bild1 .buy4, main .main section .bild2 .buy4, main .main section .bild3 .buy4, main .main section .bild4 .buy4 {
+  position: absolute;
+  display: flex;
+  top: 458px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+main .main section .bild1 a:link, main .main section .bild2 a:link, main .main section .bild3 a:link, main .main section .bild4 a:link {
+  text-decoration: none;
+  color: #222222;
+}
+main .main section .bild1 a:visited, main .main section .bild2 a:visited, main .main section .bild3 a:visited, main .main section .bild4 a:visited {
+  text-decoration: none;
+  color: #222222;
+}
+main .main section .bild1 a:hover, main .main section .bild2 a:hover, main .main section .bild3 a:hover, main .main section .bild4 a:hover {
+  text-decoration: none;
+  background-color: rgb(237, 237, 237);
+}
+main .main section .banner {
+  width: 757px;
+  height: 159px;
+  background-color: #F1EBDF;
+  padding-bottom: 50px;
+  margin: 0 auto 50px auto;
+}
+main .main section .banner h3 {
+  color: #E50010;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding: 22px 60px 0px;
+}
+main .main section .banner p {
+  color: #222222;
+  font-size: 11px;
+  text-align: center;
+}
+main .main section .banner .b-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 45px;
+}
+main .main section .banner .b-banner .links {
+  display: block;
+  border: 1px solid #222222;
+  margin: 0px 6px 0px 6px;
+}
+main .main section .banner .b-banner .b-link {
+  display: flex;
+  color: #222222;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+main .main section .banner .b-banner a:link {
+  text-decoration: none;
+}
+main .main section .banner .b-banner a:visited {
+  text-decoration: none;
+}
+main .main section .banner .b-banner a:hover {
+  text-decoration: underline;
+}
+main .main section #more {
+  display: none;
+}
+main .main section .Read-more-button {
+  text-align: center;
+}
+main .main section .Read-more-button h1 {
+  font-size: 40px;
+}
+main .main section .Read-more-button #myBtn {
+  background-color: #FAF9F8;
+  font-size: 13px;
+}
+main .main section .Read-more-button #myBtn:hover {
+  text-decoration: underline;
 }
 
 * {
@@ -427,11 +756,55 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   font-size: 13px;
   color: #222222;
 }
-.stilinspiration .stiling-h3 {
+
+.swiper {
+  width: 960px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-bottom: 20px;
+}
+
+.swiper-button-next:after {
+  color: #130a0a;
+}
+
+.swiper-button-next:before {
+  color: #130a0a;
+}
+
+.swiper-button-prev:after {
+  color: #130a0a;
+}
+
+.swiper-button-prev {
+  margin-left: 1px;
+}
+
+.stilingspan {
+  font-size: 13px;
+  margin-right: 230px;
+}
+
+.stiling-h3 {
   color: #222222;
   font-size: 20px;
   font-weight: bold;
-  padding-left: 100px;
+  padding-left: 95px;
   padding-bottom: 2px;
 }
 
@@ -455,33 +828,6 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   text-align: start;
 }
 
-/*    .styleboard-bild {
-        width: 20%;
-        margin-left: 10px;
-        margin-right: 10px;
-        display: none;
-
-    }
-
-    #leftarrow,
-    #rightarrow {
-        margin-left: 12px;
-        width: 10%;
-        display: inline-block;
-    }
-
-    #leftarrow button,
-    #rightarrow button {
-        cursor: pointer;
-
-    }
-
-    .arrow-button {
-        border: none;
-        background-color: #FAF9F8;
-    }
-
-*/
 .magazine {
   background-color: #F4EDDD;
 }
@@ -489,7 +835,8 @@ header .nav-header .nav-list .search-form select:focus, header .nav-header .nav-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 40px 100px 80px 100px;
+  padding: 40px 80px 80px 100px;
+  align-items: center;
 }
 
 .magazine-text {

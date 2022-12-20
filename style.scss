@@ -1,6 +1,7 @@
 @use"./partails/header";
 @use"./partails/footer";
 @use"./partails/undersida2-dam";
+@use"./partails/undersida2-herr";
 
 * {
     margin: 0;
@@ -227,15 +228,63 @@
         color: #222222;
     }
 
-    .stiling-h3 {
-        color: #222222;
-        font-size: 20px;
-        font-weight: bold;
-        padding-left: 100px;
-        padding-bottom: 2px;
-    }
-
 }
+.swiper {
+    width: 960px;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+
+.swiper-button-next:after{
+    color: #130a0a;
+}
+.swiper-button-next:before{
+    color: #130a0a;
+}
+.swiper-button-prev:after{
+    color: #130a0a;
+}
+.swiper-button-prev{
+    margin-left: 1px;
+}
+.stilingspan{
+    font-size: 13px;
+    margin-right: 230px;
+}
+.stiling-h3 {
+    color: #222222;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 95px;
+    padding-bottom: 2px;
+}
+
 // ------------stilinspiration style slut ----------------
 
 // ------------styleboards style ----------------
@@ -264,36 +313,7 @@
 
 }
 
-
-
-
-/*    .styleboard-bild {
-        width: 20%;
-        margin-left: 10px;
-        margin-right: 10px;
-        display: none;
-        
-    }
-
-    #leftarrow,
-    #rightarrow {
-        margin-left: 12px;
-        width: 10%;
-        display: inline-block;
-    }
-
-    #leftarrow button,
-    #rightarrow button {
-        cursor: pointer;
-
-    }
-
-    .arrow-button {
-        border: none;
-        background-color: #FAF9F8;
-    }
-
-*/
+// -----------magazine -----------------
 
 .magazine {
     background-color: #F4EDDD;
@@ -302,7 +322,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 40px 100px 80px 100px;
+        padding: 40px 80px 80px 100px;
+        align-items: center;
     }
 }
 
@@ -330,3 +351,6 @@
         opacity: 0.8;
     }
 }
+
+// -----------magazine slut--------------
+

@@ -35,6 +35,14 @@
     }
 
     .footerText {
+    font-size: 13px;
+    color: #222222;
+    text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+     }
+    .footerText1 {
       font-size: 13px;
       text-align: center;
     }

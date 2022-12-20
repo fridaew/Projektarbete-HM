@@ -1,63 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H&M</title>
+    <title>Layer2 Herr</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
 
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-
-    <!-- Scrip till slides -->
-    <script type="text/javascript">
-        let left = 1;
-        let right = 5;
-
-        function show() {
-            for (i = left; i <= right; i++) {
-                document.getElementById("c" + i).style.display = "inline-block"
-            }
-
-        }
-
-        function moveRight() {
-            if (left <= 3 && right <= 7) {
-                document.getElementById("c" + left).style.display = "none";
-                left += 1;
-                right += 1;
-
-                for (i = left; i <= right; i++) {
-                    document.getElementById("c" + i).style.display = "inline-block"
-                }
-            }
-            else
-                return;
-        }
-
-        function moveLeft() {
-            if (left >= 2 && right >= 6) {
-                document.getElementById("c" + right).style.display = "none";
-                left -= 1;
-                right -= 1;
-
-                for (i = left; i <= right; i++) {
-                    document.getElementById("c" + i).style.display = "inline-block"
-                }
-            }
-            else
-                return;
-        }
-
-    </script>
 </head>
-
-<body onload="show()">
+<body>
+    <!-- header start -->
     <header>
         <section class="top-header">
             <ul class="link-left-header">
@@ -70,52 +25,44 @@
                 <li>
                     <a href="#" class="nav-link">Hitta butik</a>
                 </li>
-
+            
                 <li>
                     <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor"
-                            class="bi bi-three-dots" viewBox="0 0 16 16">
-                            <path
-                                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
                         </svg>
                     </a>
-
-                    <ul class="drop-menu">
-                        <li><a href="#">Ladda ner Android app</a></li>
-                        <li><a href="#">Ladda ner iOS app</a></li>
-                    </ul>
+                    
+                        <ul class="drop-menu">
+                            <li><a href="#">Ladda ner Android app</a></li>
+                            <li><a href="#">Ladda ner iOS app</a></li>
+                        </ul>
                 </li>
             </ul>
 
             <a href="index.html">
                 <img src="Bilder HM/HM Loggor/Hm-logga.png" alt="Bild på HM loggan" class="HM-logga">
             </a>
-
+                        
             <div class="header-button-icons">
                 <button>
                     <a href="#"></a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                        class="bi bi-person" viewBox="0 0 16 16">
-                        <path
-                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
                     </svg>
-                    <a href="#">Logga in</a>
+                    <a href="#">Logga in</a>                       
                 </button>
 
                 <button>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                        class="bi bi-heart" viewBox="0 0 16 16">
-                        <path
-                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
                     </svg>
                     <a href="#">Favoriter</a>
                 </button>
-
+                
                 <button>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag"
-                        viewBox="0 0 16 16">
-                        <path
-                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
                     </svg>
                     <a href="#">Shopping bag (0)</a>
                 </button>
@@ -126,70 +73,69 @@
             <ul class="nav-list">
                 <li>
                     <a href="layer2-dam.html" class="nav-item">Dam</a>
-                    <div class="mega-box">
-                        <div class="content">
-                            <div class="row">
-                                <!-- <h3>Nyheter</h3> -->
-                                <ul class="mega-links">
-                                    <li><a href="#">Se alla</a></li>
-                                    <li><a href="#">Kläder</a></li>
-                                    <li><a href="#">Skor & accessoarer</a></li>
-                                    <li><a href="#">Underkläder & Sovplagg</a></li>
-                                    <li><a href="#">Beauty</a></li>
-                                </ul>
-                            </div>
-                            <div class="row">
-                                <!-- <p>Produkter<p> -->
-                                <ul class="mega-links">
-                                    <li><a href="#">Klänningar</a></li>
-                                    <li><a href="#">Toppar</a></li>
-                                    <li><a href="#">Skjortor & Blusar</a></li>
-                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
-                                    <li><a href="#">Koftor & Tröjor</a></li>
-                                    <li><a href="#">Stickat</a></li>
-                                    <li><a href="#">Jackor & Kappor</a></li>
-                                    <li><a href="#">Byxor</a></li>
-                                    <li><a href="#">Jeans</a></li>
-                                    <li><a href="#">Jumpsuits</a></li>
-                                    <li><a href="#">Kjolar</a></li>
-                                    <li><a href="#">Skor</a></li>
-                                </ul>
-                            </div>
-                            <div class="row">
-                                <!-- <p>Varumärken</p> -->
-                                <ul class="mega-links">
-                                    <li><a href="#">Varumärken A-Ö</a></li>
-                                    <li><a href="#">Lee</a></li>
-                                    <li><a href="#">Fila</a></li>
-                                    <li><a href="#">Good American</a></li>
-                                </ul>
+                        <div class="mega-box">
+                            <div class="content">
+                                <div class="row">
+                                    <!-- <h3>Nyheter</h3> -->
+                                    <ul class="mega-links">
+                                        <li><a href="#">Se alla</a></li>
+                                        <li><a href="#">Kläder</a></li>
+                                        <li><a href="#">Skor & accessoarer</a></li>
+                                        <li><a href="#">Underkläder & Sovplagg</a></li>
+                                        <li><a href="#">Beauty</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <!-- <p>Produkter<p> -->
+                                    <ul class="mega-links">
+                                        <li><a href="#">Klänningar</a></li>
+                                        <li><a href="#">Toppar</a></li>
+                                        <li><a href="#">Skjortor & Blusar</a></li>
+                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                        <li><a href="#">Koftor & Tröjor</a></li>
+                                        <li><a href="#">Stickat</a></li>
+                                        <li><a href="#">Jackor & Kappor</a></li>
+                                        <li><a href="#">Byxor</a></li>
+                                        <li><a href="#">Jeans</a></li>
+                                        <li><a href="#">Jumpsuits</a></li>
+                                        <li><a href="#">Kjolar</a></li>
+                                        <li><a href="#">Skor</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <!-- <p>Varumärken</p> -->
+                                    <ul class="mega-links">
+                                        <li><a href="#">Varumärken A-Ö</a></li>
+                                        <li><a href="#">Lee</a></li>
+                                        <li><a href="#">Fila</a></li>
+                                        <li><a href="#">Good American</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    </div>
                 </li>
                 <li><a href="layer2-herr.html" class="nav-item">Herr</a>
                     <div class="mega-box">
                         <div class="content">
                             <div class="row">
-                                <!-- <h3>Nyheter</h3> -->
+                                    <!-- <h3>Nyheter</h3> -->
                                 <ul class="mega-links">
                                     <li><a href="#">Se alla</a></li>
                                     <li><a href="#">Kläder</a></li>
                                     <li><a href="#">Skor & Accessoarer</a></li>
                                     <li><a href="#">Sportkläder</a></li>
-                                    <li><a href="#">Nya varumärken</a></li>
+                                    <li><a href="#">Nya varumärken</a></li>    
                                 </ul>
                             </div>
                             <div class="row">
-                                <!-- <h3>Gåvor</h3> -->
+                                    <!-- <h3>Gåvor</h3> -->
                                 <ul class="mega-links">
                                     <li><a href="#">Presentkort</a></li>
                                     <li><a href="#">Presentguide</a></li>
                                 </ul>
                             </div>
                             <div class="row">
-                                <!-- <p>Produkter<p> -->
+                                    <!-- <p>Produkter<p> -->
                                 <ul class="mega-links">
                                     <li><a href="#">Se alla</a></li>
                                     <li><a href="#">Stickat</a></li>
@@ -206,7 +152,7 @@
                                 </ul>
                             </div>
                             <div class="row">
-                                <!-- <p>Varumärken</p> -->
+                                    <!-- <p>Varumärken</p> -->
                                 <ul class="mega-links">
                                     <li><a href="#">Varumärken A-Ö</a></li>
                                     <li><a href="#">ARKET</a></li>
@@ -215,7 +161,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                     </div>
                 </li>
                 <li><a href="#" class="nav-item">Divided</a>
                     <div class="mega-box">
@@ -313,7 +259,7 @@
                             </div>
                         </div>
                     </div>
-                </li>
+                </li> 
                 <li><a href="#" class="nav-item">Barn</a>
                     <div class="mega-box">
                         <div class="content">
@@ -452,7 +398,7 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="#" class="nav-item">Sport</a>
+                <li><a href="#"class="nav-item">Sport</a>
                     <div class="mega-box">
                         <div class="content">
                             <div class="row">
@@ -538,10 +484,8 @@
                 </li>
                 <form class="search-form">
                     <div class="search-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                            class="bi bi-search" viewBox="0 0 16 16">
-                            <path
-                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                         </svg>
                         <input type="search" class="sökfält" placeholder="sök produkter">
                     </div>
@@ -549,254 +493,200 @@
             </ul>
         </section>
     </header>
-
-
-
-    <!-- test-bilder -->
-
-
-
-    <!-- test-bilder -->
-
-
-
-    <!-- Main Startsidan -->
-    <div class="main">
-        <p>Fri standardfrakt för medlemmar vid köp över 200kr</p>
-
-        <div class="bild1">
-            <a href="#"><img src="Bilder HM/Bild1 StartBild.jpg" alt="VinterBild"></a>
-            <button class="buy1"><a href="#">Shoppa nu</a></button>
+    <!-- header slut  -->
+   
+    <main>
+        <!-- sidoMeny start  -->
+        <div class="dam-länk-top">
+            <a href="#">HM.com</a><span>/Herr</span>
         </div>
 
-        <section class="banner">
-            <h3>30% på ytterkläder för medlemmar</h3>
-            <p>Gäller online t.o.m. 2022-12-14 när du shoppar för minst 400 kr. Läs villkor i H&M-appen.</p>
+        <div class="main">
+            <section>
+                <nav class="page-sidebar">
+            
+                    <li>
+                        <strong class="list-group-tilte">Nyheter</strong>
+                        <ul class="nav-sidebra">
+                            <li><a href="">Se alla</a></li>
+                            <li><a href="">Kläder</a></li>
+                            <li><a href="">Skor & Accessoarer</a></li>
+                            <li><a href="">Sportkläder</a></li>
+                            <li><a href="">Nya varumärken</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong class="list-group-tilte">The essentials</strong>
+                        <ul class="nav-sidebra">
+                            <li><a href="">Core Collection</a></li>
+                            <li><a href="">The making</a></li>
+                            <li><a href="">Ways to wear</a></li>
+                            </ul>
+                    </li>
+                    <li>
+                        <strong class="list-group-tilte">Winter lookbook</strong>
+                        <ul class="nav-sidebra">
+                            <li><a href="">Casual looks</a></li>
+                            <li><a href="">Smart looks</a></li>
+                            <li><a href="">Street looks</a></li>
+                    </ul>
+                    </li>
+                    <li>
+                        <strong class="list-group-tilte">Trendigt just nu</strong>
+                        <ul class="nav-sidebra">
+                            <li><a href="">The Party Edit</a></li>
+                            <li><a href="">Loungwear</a></li>
+                            <li><a href="">Blank staples</a></li>
+                            <li><a href="">H&M with friends</a></li>
+                            <li><a href="">Musik,film & loggor</a></li>
+                            <li><a href="">Expressive knits</a></li>
+                            <li><a href="">The Simpsons x H&M</a></li>
+                    </ul>
+                    </li>
+                    <li>
+                        <strong class="list-group-tilte">Gåvor</strong>
+                        <ul class="nav-sidebra">
+                            <li><a href="">Presentkort</a></li>
+                            <li><a href="">Presentguide</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong class="list-group-tilte">Produkter</strong>
+                        <ul class="nav-sidebra">
+                            <li><a href="">Se alla</a></li>
+                            <li><a href="">Stickat</a></li>
+                            <li><a href="">Jackor & Rockar</a></li>
+                            <li><a href="">Hoodies & Sweatshirts</a></li>
+                            <li><a href="">Byxor</a></li>
+                            <li><a href="">Skjortor</a></li>
+                            <li><a href="">Koftor & Tröjor</a></li>
+                            <li><a href="">Byxor</a></li>
+                            <li><a href="">Jeans</a></li>
+                            <li><a href="">T-shirts & linnen</a></li>
+                            <li><a href="">Skor</a></li>
+                            <li><a href="">Accessoarer</a></li>
+                            <li><a href="">Kostymer & Kavajer</a></li>
+                            <li><a href="">Shorts</a></li>
+                            <li><a href="">Badkläder</a></li>
+                            <li><a href="">Underkläder</a></li>
+                            <li><a href="">Strumpor</a></li>
+                            <li><a href="">Sovplagg & loungwear</a></li>
+                            <li><a href="">Sportkläder</a></li>
+                            <li><a href="">Väskor</a></li>
+                            <li><a href="">Basics</a></li>
+                            <li><a href="">Premium Selection</a></li>
+                            <li><a href="">Klädvård</a></li>
+                            <li><a href="">Hundkläder & tillbehör</a></li>
+                            <li><a href="">Reducerade priser</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong class="list-group-tilte">Varumärken</strong>
+                        <ul class="nav-sidebra">
+                            <li><a href="">Varumärken A-Ö</a></li>
+                            <li><a href="">ARKET</a></li>
+                            <li><a href="">Björn Borg</a></li>
+                            <li><a href="">COS</a></li>
+                            <li><a href="">Dickies</a></li>
+                            <li><a href="">Lee</a></li>
+                            <li><a href="">Les Deux</a></li>
+                            <li><a href="">Lyle & Scott</a></li>
+                            <li><a href="">Napapijri</a></li>
+                            <li><a href="">Refrigiwear</a></li>
+                            <li><a href="">Superdry</a></li>
+                            <li><a href="">Weekday</a></li>
+                            <li><a href="">Wrangler</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong class="list-group-tilte">Second Hand</strong>
+                        <ul class="nav-sidebra">
+                            <li><a href="">Utforska Pre-loved</a></li>
+                            <li><a href="">Kläder</a></li>
+                            <li><a href="">Skor</a></li>
+                            <li><a href="">Accessoarer</a></li>
+                            <li><a href="">Pre-loved gifts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong class="list-group-tilte">Hållbarhet</strong>
+                        <ul class="nav-sidebra">
+                            <li><a href="">H&M Rental</a></li>
+                            <li><a href="">H&M Take care</a></li>
+                            <li><a href="">Läs mer</a></li>
+                        </ul>
+                    </li>
+                </nav>
+            </section>
+            <!-- sidoMeny slut -->
 
-            <ul class="b-banner">
-                <li class="links">
-                    <a href="#" class="b-link">Dam</a>
-                </li>
-                <li class="links" class="b-link">
-                    <a href="#" class="b-link">Divided</a>
-                </li>
-                <li class="links">
-                    <a href="#" class="b-link">Herr</a>
-                </li>
-                <li class="links">
-                    <a href="#" class="b-link">Barn</a>
-                </li>
-                <li class="links">
-                    <a href="#" class="b-link">Baby</a>
-                </li>
-                <li class="links">
-                    <a href="#" class="b-link">Bli medlem</a>
-                </li>
-            </ul>
-        </section>
+            <!-- innehåll main start  -->
+            <section>
+                <div class="bild1">
+                    <a href="#">
+                        <img src="Bilder HM/Undersida Herr/Herr1.jpg" alt="VinterBild">
+                    </a>
+                    <button class="buy1"><a href="#">Uppdatera din stil</a></button>
+                </div>
+            
+                <section class="banner">
+                    <h3>Vinn exklusiva Manchester United biljetter</h3>
+                    <p>Som medlem har du chansen att att se Manchester United - Leicester på Old Trafford tillsammans med en vän. Sista 
+                    <br>tävlingsdagen är 31 december 2022.</p>
+        
+                    <ul class="b-banner">
+                        <li class="links">
+                            <a href="#" class="b-link">Tävla nu</a>
+                        </li>
+                        <li class="links" class="b-link">
+                            <a href="#" class="b-link">Bli medlem</a>
+                        </li>
+                    </ul>
+                </section>
+            
+                <div class="bild2">
+                    <a href="#">
+                        <img src="Bilder HM/Undersida Herr/Herr2.jpg" alt="VinterBild">
+                    </a>
+                    <button class="buy2"><a href="#">Bli medlem</a></button>
+                </div>
+                <div class="bild3">
+                    <a href="#">
+                        <img src="Bilder HM/Undersida Herr/Herr3.jpg" alt="VinterBild">
+                    </a> 
+                    <button class="buy3"><a href="#">Shoppa nu</a></button>
+                </div>
+                <div class="bild4">
+                    <a href="#">
+                        <img src="Bilder HM/Undersida Herr/Herr4.jpg" alt="VinterBild">
+                    </a> 
+                    <button class="buy4"><a href="#">Shoppa nu</a></button>
+                </div>
 
-        <!-- Slide-runda bilder -->
-        <div class="kategorier">
-            <h3 class="kategori-h3">Populära styleboards</h3>
-        </div>
-        <div class="parent">
-            <div id="leftarrow" onclick="moveLeft()">
-                <button class="arrow-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-arrow-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                    </svg>
-                </button>
-            </div>
-
-            <div class="child" id="c1">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund1 Dam.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Dam</h2>
-                    <p>Koftor & Tröjor</p>
-                </a>
-            </div>
-            <div class="child" id="c2">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund2 Nyheter.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Dam</h2>
-                    <p>Kläder</p>
-                </a>
-            </div>
-            <div class="child" id="c3">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund3 Dam.jpg" alt="">
-                    <p class="rund-bild-text-b">Dam</p>
-                    <p>Byxor</p>
-                </a>
-            </div>
-            <div class="child" id="c4">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund4 Dam.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Dam</h2>
-                    <p>Toppar</p>
-                </a>
-            </div>
-            <div class="child" id="c5">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund5 Dam.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Dam</h2>
-                    <p>Klänningar</p>
-                </a>
-            </div>
-            <div class="child" id="c6">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund6 Nyheter.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Flicka 2-8 År</h2>
-                    <p>Nyheter</p>
-                </a>
-            </div>
-            <div class="child" id="c7">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund7 Dam.jpg" alt="">
-                    <h2 class="rund-bild-text-b">Dam</h2>
-                    <p>Skjortor & Blusar</p>
-                </a>
-            </div>
-            <div class="child" id="c8">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund8 HM Home.jpg" alt="">
-                    <h2 class="rund-bild-text-b">H&M Home</h2>
-                    <p>Vardagsrum</p>
-                </a>
-            </div>
-            <div class="child" id="c8">
-                <a href="#" class="runda">
-                    <img src="Bilder HM/Småbilder/Rund9 HM Home.jpg" alt="">
-                    <h2 class="rund-bild-text-b">H&M Home</h2>
-                    <p>Sovrum</p>
-                </a>
-            </div>
-            <div id="rightarrow" onclick="moveRight()">
-                <button class="arrow-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                    </svg>
-                </button>
-            </div>
-        </div>
-
-        <!-- slide-runda bilder slut -->
-
-
-
-        <!--------Stilinspiration del------->
-
-        <div>
-            <h3 class="stiling-h3">Stilinspiration</h3>
-        </div>
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="Bilder HM/Stilinspo/Inspo7.jpg" alt="kläder"><span
-                        class="stilingspan">@Diaha_03></span></div>
-                <div class="swiper-slide"> <img src="Bilder HM/Stilinspo/Inspo8.jpg" alt="kläder"><span
-                        class="stilingspan">@Lanana_09></span></div>
-                <div class="swiper-slide"> <img src="Bilder HM/Stilinspo/Inspo9.jpg" alt="kläder"><span
-                        class="stilingspan">@Dianul></span></div>
-                <div class="swiper-slide"> <img src="Bilder HM/Stilinspo/Inspo4.jpg" alt="kläder"><span
-                        class="stilingspan">@Hansson_9></span></div>
-                <div class="swiper-slide"> <img src="Bilder HM/Stilinspo/Inspo5.jpg" alt="kläder"><span
-                        class="stilingspan">@TolleHp></span></div>
-                <div class="swiper-slide"> <img src="Bilder HM/Stilinspo/Inspo6.jpg" alt="kläder"><span
-                        class="stilingspan">@Anna_6></span></div>
-
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-        </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-        <!-- Initialize Swiper -->
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 3,
-                spaceBetween: 30,
-                slidesPerGroup: 3,
-                loop: true,
-                loopFillGroupWithBlank: true,
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-            });
-        </script>
-
-        <!-----------------------Stilinspiration del slut--------------------------->
-
-
-
-
-
-        <!-- Populära styleboards -->
-        <section class="styleboards">
-            <div>
-                <h3 class="styleboards-h3">Populära styleboards</h3>
-            </div>
-
-            <div class="styleboards-bilder">
-                <div class="styleboard-bild" id="b1"><a href="#"><img src="Bilder Hm/Styleboards/StyleB1.jpg"
-                 alt="Kläder"></a></div>
-
-                <div class="styleboard-bild" id="b2"><a href="#"><img src="Bilder Hm/Styleboards/StyleB2.jpg"
-                   alt="Kläder"></a></div>
-
-                <div class="styleboard-bild" id="b3"><a href="#"><img src="Bilder Hm/Styleboards/StyleB3.jpg"
-                  alt="Kläder"></a></div>
-            </div>
-        </section>
-        <!-- Populära styleboards slut -->
-
-
-        <!-- Sista stora bilderan -->
-        <div class="bild2">
-            <a href="#">
-                <img src="Bilder HM/Bild2 startsida.jpg" alt="VinterBild">
-            </a>
-            <button class="buy2"><a href="#">Shoppa nu</a></button>
-        </div>
-        <div class="bild3">
-            <a href="#">
-                <img src="Bilder HM/Bild3 startsida.jpg" alt="VinterBild">
-            </a>
-            <button class="buy3"><a href="#">Shoppa nu</a></button>
-        </div>
-    </div>
-
-
-
-    <!--Magazine del start sidan -->
-
-    <section class="magazine">
-        <div class="magazine-text">
-            <h2 class="magazine-h2">MAGAZINE</h2>
-            <h3 class="magazine-h3">A WORLD OF INSPIRATION</h3>
-            <a class="magazine-a" href="#">READ H&M MAGAZINE</a>
+                <div class="Read-more-button">
+                    <h1><b>Herrkläder</b></h1>
+                    <p>Kolla in alla de fräschaste stilarna som din garderob behöver ur vårt sortiment med herrkläder. Du hittar alla basplagg,
+                        <br> inklusive toppar och T-shirts, liksom bekväma loungekläder och underkläder. Bjuden på fest? Du hittar allt du behöver bland 
+                        <br>våra kavajer och kostymer för herr för den vassaste looken och för att sätta klädkoden. När det gäller byxor för herr finns
+                        <br><span id="dots"></span>
+                        <span id="more">
+                        det chinos, joggers och cargobyxor i alla basfärger. Drömmer du om denim? Våra jeans för herr finns i en rad olika passformer 
+                        <br>och stilar, som skinny, raka och avsmalnande, för att bara nämna några få. Kombinera med en trendig oversize-skjorta eller
+                        <br> en klassisk denimskjorta från vårt sortiment med herrskjortor. Och när det är kyligt ute har vi allt du behöver inom jackor 
+                        <br>och rockar för herr – vi har både täckjackor och trenchcoats liksom skinnjackor och bomberjackor i färger som fungerar året 
+                        <br>runt.</span></p>
+                    <button onclick="myFunction()" id="myBtn">Läs mer</button>
+                </div>
+            </section>
         </div>
 
-        <div class="magazine-bilder">
-            <div class="magazine-bild"><a href="#"> <img src="Bilder HM/Magazine/Magazine1.jpg" alt="bild"></a></div>
-            <div class="magazine-bild"> <a href="#"> <img src="Bilder HM/Magazine/Magazine2.jpg" alt="bild"></a></div>
-            <div class="magazine-bild"> <a href="#"> <img src="Bilder HM/Magazine/Magazine3.jpg" alt="bild"></a></div>
-        </div>
+        <!-- innehåll main slut  -->
 
-    </section>
+        <!-- Read More test -->
+   
 
-    <!--Magazine del slut -->
-
+        <!-- Read More test-slut -->
+    </main>
     <!--Footer-->
     <footer class="footer">
         <div class="footer-innehåll">
@@ -837,12 +727,9 @@
                 <h2 class="footer-h2">GÅ MED NU</h2>
                 <p class="footerText">Bli medlem och få 10% rabatt på ett <br>
                     köp + fri standardfrakt!</p>
-                <a href="#" class="footerText"><b>LÄS MER </b><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                        height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    <a href="#" class="footerText"><b>LÄS MER    </b><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                     </svg></a>
-
             </div>
         </div>
 
@@ -850,46 +737,36 @@
         <ul class="footer-ikoner">
             <li>
                 <a class="ikon-a" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-facebook" viewBox="0 0 16 16">
-                        <path
-                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                     </svg>
                 </a>
             </li>
             <li>
                 <a class="ikon-a" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-twitter" viewBox="0 0 16 16">
-                        <path
-                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                     </svg>
                 </a>
             </li>
             <li>
                 <a class="ikon-a" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-instagram" viewBox="0 0 16 16">
-                        <path
-                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                     </svg>
                 </a>
             </li>
             <li>
                 <a class="ikon-a" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-youtube" viewBox="0 0 16 16">
-                        <path
-                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
                     </svg>
                 </a>
             </li>
             <li>
                 <a class="ikon-a" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-pinterest" viewBox="0 0 16 16">
-                        <path
-                            d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
                     </svg>
                 </a>
             </li>
@@ -899,7 +776,7 @@
             AB. H&M: s <br> affärsidé är att erbjuda mode och kvalitet till bästa pris på ett hållbart sätt. Sedan H&M
             grundades 1947 <br> har vi vuxit till att bli ett av världens ledande modeföretag.</p>
 
-        <div class="footerLogo">
+        <div class="footerLogo">                   
             <div>
                 <a href="https://www2.hm.com/sv_se/index.html">
                     <img src="Bilder HM/HM Loggor/HM Logga Footer.jpg" alt="logo">
@@ -910,10 +787,8 @@
             </div>
         </div>
     </footer>
-
-    <!--Footer slut-->
+    <!-- footer slut -->
 
     <script src="script.js"></script>
 </body>
-
 </html>
