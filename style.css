@@ -804,12 +804,20 @@ main .main section .Read-more-button #myBtn:hover {
   margin-right: 230px;
 }
 
-.stiling-h3 {
-  color: #222222;
+.stiling {
+  width: 960px;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  position: relative;
+  justify-content: space-between;
+}
+.stiling .stiling-h3 {
+  width: 960px;
+  color: black;
   font-size: 20px;
   font-weight: bold;
-  padding-left: 95px;
-  padding-bottom: 2px;
+  text-align: start;
 }
 
 .styleboards {
