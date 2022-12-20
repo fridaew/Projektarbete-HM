@@ -783,12 +783,19 @@ main .main section .Read-more-button #myBtn:hover {
 */
 .magazine {
   background-color: #F4EDDD;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .magazine .magazine-bilder {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 40px 100px 80px 100px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  width: 960px;
 }
 
 .magazine-text {
