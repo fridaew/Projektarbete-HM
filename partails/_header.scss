@@ -21,7 +21,7 @@ header {
         
         }
 
-        .link-left-header li:hover .drop-menu {
+        .link-left-header li:hover .drop-menu  {
             top:55px;
             opacity:1;
             visibility: visible;
@@ -47,7 +47,7 @@ header {
             width: 150px;
             line-height: 30px;
             position: absolute;
-            opacity: 0;
+            // opacity: 0;
             visibility: hidden;
                 
             a {
@@ -85,10 +85,12 @@ header {
         }
 
         .header-button-icons {
-            margin-right: 40px;
-            display: inline-block;
+            margin: 40px;
+            display: flex;
+            flex-direction: row;
             position: relative;
-            margin-top: 40px;
+           
+            
 
             button {
                 margin-left: 10px;
@@ -104,7 +106,58 @@ header {
             a:hover {
                 text-decoration: underline;
             }
+            li:hover .drop-menu-login{
+                opacity:1;
+                visibility: visible;
+                z-index: 2;
+                
+            }
+
+            li {
+                list-style: none;
+                align-self: center;
+            }
+            .drop-menu-login{
+                background-color: white;
+                color: #FAF9F8;
+                padding: 20px;
+                position: absolute;
+                visibility: hidden;
+    
+    
+                .login-btn{
+                    background-color: #222222;
+                    margin:0 13px 20px 0 ;
+                    padding:13px;
+                    width: 100%;
+                    color: #FAF9F8;
+                    font-size: 18px;
+        
+                }
+
+                .login-btn:hover{
+                    background-color: #504f4f;
+                }
+    
+                li a {
+                    color: black;
+                }
+    
+                li {
+                    list-style: none;
+                    text-decoration: none;
+                }
+    
+                a.none-underline-link{
+                    text-decoration: none; 
+                }
+            }
+
+            
         }
+       
+
+      
        //test icons 
 
         .bi {
@@ -118,6 +171,10 @@ header {
         .nav-list li {
             list-style: none;
         }
+
+       
+
+     
     }
 
     //----------------SLUT-TOP-HEADER--------------------
@@ -214,6 +271,7 @@ header {
                     border: none;
                     text-decoration: underline;
                     background-color: #FAF9F8;
+                
                 }
 
                 .sökfält:hover fieldset {

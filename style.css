@@ -36,7 +36,6 @@ header .top-header .link-left-header .drop-menu {
   width: 150px;
   line-height: 30px;
   position: absolute;
-  opacity: 0;
   visibility: hidden;
 }
 header .top-header .link-left-header .drop-menu a {
@@ -66,10 +65,10 @@ header .top-header .link-left-header a:hover {
   text-decoration: underline;
 }
 header .top-header .header-button-icons {
-  margin-right: 40px;
-  display: inline-block;
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
   position: relative;
-  margin-top: 40px;
 }
 header .top-header .header-button-icons button {
   margin-left: 10px;
@@ -82,6 +81,43 @@ header .top-header .header-button-icons a {
 }
 header .top-header .header-button-icons a:hover {
   text-decoration: underline;
+}
+header .top-header .header-button-icons li:hover .drop-menu-login {
+  opacity: 1;
+  visibility: visible;
+  z-index: 2;
+}
+header .top-header .header-button-icons li {
+  list-style: none;
+  align-self: center;
+}
+header .top-header .header-button-icons .drop-menu-login {
+  background-color: white;
+  color: #FAF9F8;
+  padding: 20px;
+  position: absolute;
+  visibility: hidden;
+}
+header .top-header .header-button-icons .drop-menu-login .login-btn {
+  background-color: #222222;
+  margin: 0 13px 20px 0;
+  padding: 13px;
+  width: 100%;
+  color: #FAF9F8;
+  font-size: 18px;
+}
+header .top-header .header-button-icons .drop-menu-login .login-btn:hover {
+  background-color: #504f4f;
+}
+header .top-header .header-button-icons .drop-menu-login li a {
+  color: black;
+}
+header .top-header .header-button-icons .drop-menu-login li {
+  list-style: none;
+  text-decoration: none;
+}
+header .top-header .header-button-icons .drop-menu-login a.none-underline-link {
+  text-decoration: none;
 }
 header .top-header .bi {
   color: #222222;
