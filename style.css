@@ -97,6 +97,7 @@ header .top-header .header-button-icons .drop-menu-login {
   padding: 20px;
   position: absolute;
   visibility: hidden;
+  left: 30px;
 }
 header .top-header .header-button-icons .drop-menu-login .login-btn {
   background-color: #222222;
@@ -119,6 +120,46 @@ header .top-header .header-button-icons .drop-menu-login li {
 header .top-header .header-button-icons .drop-menu-login a.none-underline-link {
   text-decoration: none;
 }
+header .top-header .header-button-icons li:hover .drop-menu-shoppingbag {
+  opacity: 1;
+  visibility: visible;
+  z-index: 2;
+}
+header .top-header .header-button-icons .drop-menu-shoppingbag {
+  background-color: white;
+  color: #FAF9F8;
+  padding: 20px;
+  position: absolute;
+  visibility: hidden;
+  width: 300px;
+  left: 20px;
+}
+header .top-header .header-button-icons .drop-menu-shoppingbag p {
+  color: #222222;
+}
+header .top-header .header-button-icons .drop-menu-shoppingbag p span {
+  margin-left: 136px;
+  align-self: center;
+  position: absolute;
+}
+header .top-header .header-button-icons .drop-menu-shoppingbag .summa span {
+  margin-left: 150px;
+  align-self: center;
+  position: absolute;
+}
+header .top-header .header-button-icons .drop-menu-shoppingbag .summa {
+  font-size: large;
+}
+header .top-header .header-button-icons .drop-menu-shoppingbag .gray-text {
+  color: #636262;
+}
+header .top-header .header-button-icons .drop-menu-shoppingbag hr {
+  color: #8b8b8b;
+}
+header .top-header .header-button-icons .drop-menu-shoppingbag .hr-thick {
+  color: rgb(0, 0, 0);
+  font-size: 500px;
+}
 header .top-header .bi {
   color: #222222;
 }
@@ -129,7 +170,6 @@ header .top-header .nav-list li {
   list-style: none;
 }
 header .nav-header {
-  position: relative;
   padding-bottom: 20px;
   position: relative;
   z-index: 1;
@@ -602,6 +642,83 @@ main .main section .Read-more-button #myBtn {
 }
 main .main section .Read-more-button #myBtn:hover {
   text-decoration: underline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Didact Gothic", sans-serif;
+  border: none;
+}
+
+.main-brands {
+  background-color: #FAF9F8;
+}
+.main-brands .brands-länk-top {
+  text-align: center;
+  margin: 16px;
+  margin-top: 0;
+}
+.main-brands .brands-länk-top a {
+  text-decoration: none;
+  color: black;
+  font-size: 12.008px;
+}
+.main-brands .brands-länk-top a:hover {
+  color: red;
+}
+.main-brands .brands-länk-top span {
+  font-size: 12px;
+}
+.main-brands h2 {
+  text-align: center;
+}
+.main-brands .brands-btnmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+.main-brands .brands-btnmenu button {
+  margin-left: 20px;
+  padding: 3px 15px 3px 15px;
+  border-radius: 20px;
+  background-color: #FAF9F8;
+  border: 1px solid black;
+}
+.main-brands .brands-btnmenu button:hover {
+  background-color: red;
+  color: #FAF9F8;
+  border: none;
+}
+.main-brands .brands-abc ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-brands .brands-abc ul li {
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.main-brands .brands-abc ul a {
+  text-decoration: none;
+  color: black;
+}
+.main-brands .brands-abc ul a:hover {
+  text-decoration: underline;
+}
+.main-brands .brands .brand-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+.main-brands .brands h3 {
+  font-size: 1.3rem;
+}
+.main-brands .brands .brand-row {
+  display: flex;
+  flex-direction: row;
 }
 
 * {

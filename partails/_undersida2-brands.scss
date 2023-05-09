@@ -1,0 +1,108 @@
+// .brands-länk-top{
+//     text-align: center;
+//     margin-left: 30px;
+// }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    border: none;
+}
+
+.main-brands{
+    background-color:#FAF9F8;
+
+   
+
+    .brands-länk-top{
+       
+        text-align: center;
+        margin: 16px;
+        margin-top: 0;
+
+        a {
+            text-decoration: none;
+            color:black;
+            font-size: 12.008px;
+        }
+    
+        a:hover{
+            color: red;
+        }
+    
+        span {
+            font-size: 12px;
+        }
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .brands-btnmenu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .brands-btnmenu button{
+        margin-left: 20px;
+        padding: 3px 15px 3px 15px;
+        border-radius: 20px;
+        background-color: #FAF9F8;
+        border: 1px solid black
+    }
+
+    .brands-btnmenu button:hover{
+        background-color: red;
+        color: #FAF9F8;
+        border: none;
+
+    }
+
+    .brands-abc ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        li{
+            list-style: none;
+            margin-left: 20px;
+            margin-top: 40px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+          text-decoration: underline;
+        }
+    }
+
+    .brands{
+
+        .brand-img{
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+        }
+
+        h3{
+            font-size: 1.3rem;
+        }
+
+        .brand-row{
+            display: flex;
+            flex-direction: row;
+        }
+
+      
+
+        
+    }
+}
+
+

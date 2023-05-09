@@ -110,7 +110,6 @@ header {
                 opacity:1;
                 visibility: visible;
                 z-index: 2;
-                
             }
 
             li {
@@ -123,6 +122,7 @@ header {
                 padding: 20px;
                 position: absolute;
                 visibility: hidden;
+                left: 30px;
     
     
                 .login-btn{
@@ -153,7 +153,55 @@ header {
                 }
             }
 
-            
+            li:hover .drop-menu-shoppingbag{
+                opacity:1;
+                visibility: visible;
+                z-index: 2;
+            }
+
+            .drop-menu-shoppingbag{
+                background-color: white;
+                color: #FAF9F8;
+                padding: 20px;
+                position: absolute;
+                visibility: hidden;
+                width: 300px;
+                left: 20px;
+                
+
+                p {
+                    color:#222222;
+                }
+
+                p span {
+                    margin-left: 136px;
+                    align-self: center;
+                    position:absolute;
+                }
+
+                .summa span {
+                    margin-left: 150px;
+                    align-self: center;
+                    position:absolute;
+                }
+
+                .summa{
+                    font-size: large;
+                }
+
+                .gray-text{
+                    color:#636262;
+                }
+
+                hr {
+                    color:#8b8b8b;
+                }
+
+                .hr-thick{
+                    color: rgb(0, 0, 0);
+                    font-size: 500px;
+                }
+            }
         }
        
 
@@ -188,7 +236,6 @@ header {
     //--------------NAV-HEADER--------------------
 
     .nav-header{
-        position: relative;
         padding-bottom: 20px;
         position: relative;
         z-index: 1;
